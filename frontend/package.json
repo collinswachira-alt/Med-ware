@@ -2,7 +2,7 @@
   "name": "medware-frontend",
   "private": true,
   "version": "1.0.0",
-  "description": "Med-ware Frontend - Healthcare facility management system UI",
+  "description": "Med-ware Frontend - Medi-Warefacility management system UI",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,8 +11,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.1.0",
+    "@fortawesome/free-brands-svg-icons": "^7.1.0",
+    "@fortawesome/free-solid-svg-icons": "^7.1.0",
+    "@fortawesome/react-fontawesome": "^3.1.1",
+    "fortawesome": "^0.0.1-security",
+    "lucide-react": "^0.562.0",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.12.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",

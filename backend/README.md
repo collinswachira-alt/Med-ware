@@ -1,21 +1,24 @@
 # Med-ware Backend
 
-Backend API for Med-ware - Healthcare facility management system built with Node.js and Express.
+Backend API for Med-ware - Medi-Warefacility management system built with Node.js and Express.
 
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
 - npm or yarn
 
 ### Installation
 
 1. Install dependencies:
+
 ```bash
 npm install
 ```
 
 2. Create environment file:
+
 ```bash
 cp .env.example .env
 ```
@@ -25,11 +28,13 @@ cp .env.example .env
 ### Running the Server
 
 Development mode with auto-reload:
+
 ```bash
 npm run dev
 ```
 
 Production mode:
+
 ```bash
 npm start
 ```

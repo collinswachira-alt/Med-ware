@@ -1,16 +1,18 @@
 # Med-ware Frontend
 
-Frontend application for Med-ware - Healthcare facility management system built with Vite, React, TypeScript, and Tailwind CSS.
+Frontend application for Med-ware - Medi-Warefacility management system built with Vite, React, TypeScript, and Tailwind CSS.
 
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
 - npm or yarn
 
 ### Installation
 
 1. Install dependencies:
+
 ```bash
 npm install
 ```
@@ -18,21 +20,25 @@ npm install
 ### Running the Application
 
 Development mode with hot-reload:
+
 ```bash
 npm run dev
 ```
 
 Build for production:
+
 ```bash
 npm run build
 ```
 
 Preview production build:
+
 ```bash
 npm run preview
 ```
 
 Lint code:
+
 ```bash
 npm run lint
 ```
