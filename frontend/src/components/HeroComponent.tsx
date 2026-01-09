@@ -1,10 +1,13 @@
 import { Clock, ChevronRight, Users } from 'lucide-react';
+import FloatingMedicalBackground from './FloatingItems';
+
 
 const HeroComponent = () => {
   return (
     <div>
-      <section id="home" className="relative bg-linear-to-br from-blue-50 to-sky-50 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+      <FloatingMedicalBackground />
+      <section id="home" className="relative  overflow-hidden">
+        <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="space-y-6 md:space-y-8 order-2 md:order-1">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
