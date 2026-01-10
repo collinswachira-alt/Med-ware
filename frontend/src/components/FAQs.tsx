@@ -77,8 +77,8 @@ export const FAQ = () => {
     ],
     account: [
       {
-        question: "",
-        answer: "",
+        question: "Why should I create an account?",
+        answer: "An Account provides resources to help you manage and track various relations eg. Appointments.",
       },
       {
         question: "",
