@@ -26,7 +26,7 @@ export const Footer: React.FC<FooterProps> = ({
 
   return (
     <footer
-      className={`w-full border-t border-global-border-primary bg-global-bg-primary ${className}`}
+      className={`w-full bg-gray-900 text-white border-t border-global-border-primary bg-global-bg-primary ${className}`}
     >
       <div className="max-w-container-lg mx-auto px-4 py-6 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">

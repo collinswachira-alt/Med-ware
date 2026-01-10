@@ -4,7 +4,7 @@ import FloatingMedicalBackground from './FloatingItems';
 
 const HeroComponent = () => {
   return (
-    <div>
+    <div className='mt-30'>
       <FloatingMedicalBackground />
       <section id="home" className="relative  overflow-hidden">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
@@ -42,11 +42,11 @@ const HeroComponent = () => {
               </div>
             </div>
             <div className="relative order-1 md:order-2">
-              <div className="relative overflow-hidden shadow-2xl">
+              <div className="relative overflow-hidden ">
                 <img 
-                  src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=800&h=900&fit=crop" 
+                  src="https://res.cloudinary.com/dwnhqho80/image/upload/v1768056209/WhatsApp_Image_2026-01-10_at_17.41.00-removebg-preview_c55uui.png" 
                   alt="Medi-WareProfessional"
-                  className="w-full h-100 md:h-150 object-cover"
+                  className="w-full h-100 md:h-150 object-contain"
                 />
               </div>
             </div>

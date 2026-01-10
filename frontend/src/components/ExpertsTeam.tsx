@@ -1,95 +1,6 @@
-// import { Star } from 'lucide-react';
-
-
-// const ExpertsTeam= () => {
-
-//   const doctors = [
-//     {
-//       name: "Dr. Jane Cooper",
-//       specialty: "Cardiology",
-//       experience: "15+ years",
-//       image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=400&fit=crop",
-//       rating: 4.9
-//     },
-//     {
-//       name: "Dr. Cameron Wilson",
-//       specialty: "Pediatrics",
-//       experience: "12+ years",
-//       image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300&h=400&fit=crop",
-//       rating: 5.0
-//     },
-//     {
-//       name: "Dr. Sarah Martinez",
-//       specialty: "Neurology",
-//       experience: "18+ years",
-//       image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=300&h=400&fit=crop",
-//       rating: 4.8
-//     },
-//     {
-//       name: "Dr. David Lee",
-//       specialty: c
-//       experience: "14+ years",
-//       image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=300&h=400&fit=crop",
-//       rating: 4.9
-//     }
-//   ];
-
-// return (
-//  <section id="doctors" className="py-16 md:py-24 bg-white">
-//         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-//           <div className="text-center mb-12 md:mb-16">
-//             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-//               Meet Our Expert Team
-//             </h2>
-//             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-//               Board-certified physicians dedicated to your health and wellbeing
-//             </p>
-//           </div>
-
-//           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
-//             {doctors.map((doctor, idx) => (
-//               <div 
-//                 key={idx}
-//                 className="bg-white overflow-hidden shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2 group"
-//               >
-//                 <div className="relative h-64 md:h-80 overflow-hidden">
-//                   <img 
-//                     src={doctor.image}
-//                     alt={doctor.name}
-//                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-//                   />
-//                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-//                 </div>
-//                 <div className="p-6">
-//                   <h3 className="text-xl font-bold text-gray-900 mb-1">{doctor.name}</h3>
-//                   <p className="text-blue-600 font-medium mb-2">{doctor.specialty}</p>
-//                   <p className="text-gray-600 text-sm mb-3">{doctor.experience} experience</p>
-//                   <div className="flex items-center gap-1 mb-4">
-//                     {[...Array(5)].map((_, i) => (
-//                       <Star key={i} className="w-4 h-4 text-yellow-400" fill="currentColor" />
-//                     ))}
-//                     <span className="ml-2 text-sm text-gray-600">{doctor.rating}</span>
-//                   </div>
-//                   <button className="w-full bg-gradient-to-r from-blue-600 to-sky-500 text-white py-2.5 rounded-lg hover:shadow-lg transition-all font-medium">
-//                     Book Appointment
-//                   </button>
-//                 </div>
-//               </div>
-//             ))}
-//           </div>
-//         </div>
-//       </section>
-//     );
-// };
-
-// export default ExpertsTeam;
-
 import { useState } from 'react';
-import { Mail, ExternalLink } from 'lucide-react';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  faLinkedin, faXTwitter, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { Mail, ExternalLink, Linkedin, Instagram, Twitter, Github } from 'lucide-react';
 import TypewriterGradient from './TypeScript';
-
 
 interface TeamMember {
   id: number;
@@ -110,19 +21,20 @@ interface TeamMember {
 export const ExpertsTeam = () => {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
 
+  const team = ['Our Experts', 'Our Developers', 'Our Doctors', 'Our Team', 'Our Founders'];
+
   const founders: TeamMember[] = [
     {
       id: 1,
-      name: 'Dr. Jane Cooper',
-      role: 'Cardiology Specialist',
-      bio: '15+ years of experience in cardiovascular health and patient care.',
+      name: 'Collins Wachira',
+      role: 'Senior Developer',
+      bio: 'Adequate knowledge in building web applications and services.',
       image: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1766835313/IMG-20250812-WA0001_ni3ava.jpg',
       social: {
         email: 'collinswachira@lupp.live',
         instagram: 'https://instagram.com/he_is_wachira',
         linkedin: 'https://linkedin.com',
         twitter: 'https://twitter.com',
-        github: 'https://github.com/collinswachira-alt',
       }
     },
     {
@@ -142,7 +54,7 @@ export const ExpertsTeam = () => {
       name: "Dr. Sarah Martinez",
       role: "Neurology",
       bio: "Experienced neurologist specializing in brain and nervous system disorders.",
-      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=300&h=400&fit=crop',
       social: {
         email: 'emily@lupp.live',
         linkedin: 'https://linkedin.com',
@@ -167,11 +79,10 @@ export const ExpertsTeam = () => {
       name: 'David Kiruga',
       role: 'Developer',
       bio: 'Extensive experience in building scalable web applications and services.',
-      image: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1766835313/IMG-20250812-WA0001_ni3ava.jpg',
+      image: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1768054621/WhatsApp_Image_2026-01-10_at_17.03.23_tozikb.jpg',
       social: {
         email: 'kirugadavid9@gmail.com',
         instagram: 'https://instagram.com/',
-        linkedin: 'https://linkedin.com',
         twitter: 'https://twitter.com',
         github: 'https://github.com/kirugadavid9-oss',
       }
@@ -198,7 +109,6 @@ export const ExpertsTeam = () => {
       social: {
         email: 'james@lupp.live',
         linkedin: 'https://linkedin.com',
-        github: 'https://github.com',
         twitter: 'https://twitter.com'
       }
     },
@@ -237,235 +147,295 @@ export const ExpertsTeam = () => {
         email: 'lisa@lupp.live',
         linkedin: 'https://linkedin.com',
         instagram: 'https://instagram.com',
-        github: 'https://github.com'
       }
     }
   ];
 
-  const team = [
-    "Team",
-    "Specialists",
-    "Experts",
-    "Professionals"
-  ]
-
-const getSocialIcon = (type: string) => {
+  const getSocialIcon = (type: string) => {
     switch (type) {
-        case 'email':
-            return Mail;
-        case 'linkedin':
-            return () => <FontAwesomeIcon icon={faLinkedin} />;
-        case 'instagram':
-            return () => <FontAwesomeIcon icon={faInstagram} />;
-        case 'twitter':
-            return () => <FontAwesomeIcon icon={faXTwitter} />;
-        case 'github':
-            return () => <FontAwesomeIcon icon={faGithub} />;
-        case 'website':
-            return ExternalLink;
-        default:
-            return ExternalLink;
+      case 'email':
+        return Mail;
+      case 'linkedin':
+        return Linkedin;
+      case 'instagram':
+        return Instagram;
+      case 'twitter':
+        return Twitter;
+      case 'github':
+        return Github;
+      case 'website':
+        return ExternalLink;
+      default:
+        return ExternalLink;
     }
-};
+  };
 
   const getSocialColor = (type: string) => {
     switch (type) {
       case 'email':
-        return 'hover:text-red-500 dark:hover:text-red-400';
+        return 'hover:text-red-500';
       case 'linkedin':
-        return 'hover:text-blue-600 dark:hover:text-blue-400';
+        return 'hover:text-blue-600';
       case 'twitter':
-        return 'hover:text-cyan-500 dark:hover:text-cyan-400';
+        return 'hover:text-sky-500';
       case 'github':
-        return 'hover:text-slate-900 dark:hover:text-white';
+        return 'hover:text-gray-900';
+      case 'instagram':
+        return 'hover:text-pink-500';
       case 'website':
-        return 'hover:text-purple-500 dark:hover:text-purple-400';
+        return 'hover:text-purple-500';
       default:
-        return 'hover:text-cyan-500 dark:hover:text-cyan-400';
+        return 'hover:text-blue-500';
     }
   };
 
   const handleSocialClick = (url: string | undefined, type: string) => {
     if (!url) return;
     if (type === 'email') {
-        
       window.location.href = `mailto:${url}`;
-      console.info(`hoverId: ${hoveredId}`);
     } else {
       window.open(url, '_blank');
     }
   };
 
+  // Create triple set for seamless infinite scroll
+  const allMembers = [...founders, ...founders, ...founders];
+
   return (
-    <section className="px-4 md:px-6 lg:px-8 py-16 md:py-24">
+    <section style={{
+      padding: '64px 16px',
+      position: 'relative',
+      backgroundColor: '#fff',
+      overflow: 'hidden'
+    }}>
       {/* Decorative elements */}
-      <div className="hidden lg:block absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-1/4 right-10 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 left-10 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl" />
+      <div style={{
+        position: 'absolute',
+        inset: 0,
+        pointerEvents: 'none',
+        overflow: 'hidden'
+      }}>
+        <div style={{
+          position: 'absolute',
+          top: '25%',
+          right: '40px',
+          width: '384px',
+          height: '384px',
+          background: 'rgba(6, 182, 212, 0.05)',
+          borderRadius: '50%',
+          filter: 'blur(60px)'
+        }} />
+        <div style={{
+          position: 'absolute',
+          bottom: '25%',
+          left: '40px',
+          width: '384px',
+          height: '384px',
+          background: 'rgba(147, 51, 234, 0.05)',
+          borderRadius: '50%',
+          filter: 'blur(60px)'
+        }} />
       </div>
 
-      <div className="max-w-8xl mx-auto relative z-10 space-y-16">
+      <div style={{
+        maxWidth: '1600px',
+        margin: '0 auto',
+        position: 'relative',
+        zIndex: 10
+      }}>
         {/* Header */}
-        <div className="text-center space-y-4 max-w-2xl mx-auto">
+        <div style={{
+          textAlign: 'center',
+          marginBottom: '64px',
+          maxWidth: '672px',
+          margin: '0 auto 64px'
+        }}>
           <h2 className="text-4xl md:text-5xl font-bold text-global-text-primary">
-            Meet Our <span className="bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+            Meet <span className="bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
               <TypewriterGradient
                 texts={team}
-                speed={500}
-                delayBetweenTexts={1200}
+                speed={200}
+                delayBetweenTexts={200}
                 loop={true}
               />
             </span>
           </h2>
-          <p className="text-lg text-global-text-secondary">
+          <p style={{
+            fontSize: '18px',
+            color: '#64748b',
+            lineHeight: '1.6'
+          }}>
             Our dedicated team of medical professionals is here to provide you with exceptional care and expertise.
           </p>
         </div>
 
-        {/* Team Carousel */}
-        <div className="relative overflow-hidden">
-          <div className="flex gap-6 md:gap-8 animate-scroll">
-            {/* First set of items */}
-            {founders.map((founder) => (
+        {/* Carousel Container */}
+        <div style={{
+          position: 'relative',
+          width: '100%',
+          overflow: 'hidden',
+          maskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)',
+          WebkitMaskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)'
+        }}>
+          <div style={{
+            display: 'flex',
+            gap: '24px',
+            animation: 'scroll 90s linear infinite',
+            width: 'fit-content'
+          }} 
+          onMouseEnter={e => e.currentTarget.style.animationPlayState = 'paused'}
+          onMouseLeave={e => e.currentTarget.style.animationPlayState = 'running'}>
+            {allMembers.map((founder, index) => (
               <div
-                key={`first-${founder.id}`}
+                key={`${founder.id}-${index}`}
                 onMouseEnter={() => setHoveredId(founder.id)}
                 onMouseLeave={() => setHoveredId(null)}
-                className="group relative flex-shrink-0 w-[280px] md:w-[320px]"
+                style={{
+                  flexShrink: 0,
+                  width: '280px',
+                  position: 'relative'
+                }}
               >
                 {/* Card Container */}
-                <div className="relative bg-whitebg-global-bg-primary rounded-2xl border border-cyan-900 overflow-hidden transition-all duration-500 hover:border-cyan-500/50 dark:hover:border-cyan-500/50 hover:shadow-2xl dark:hover:shadow-2xl dark:hover:shadow-cyan-500/10">
+                <div style={{
+                  position: 'relative',
+                  backgroundColor: '#fff',
+                  borderRadius: '16px',
+                  border: '1px solid #e2e8f0',
+                  overflow: 'hidden',
+                  transition: 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)',
+                  boxShadow: hoveredId === founder.id 
+                    ? '0 20px 50px rgba(6, 182, 212, 0.15)' 
+                    : '0 4px 12px rgba(0, 0, 0, 0.05)',
+                  transform: hoveredId === founder.id ? 'translateY(-8px)' : 'translateY(0)',
+                  borderColor: hoveredId === founder.id ? 'rgba(6, 182, 212, 0.5)' : '#e2e8f0'
+                }}>
                   
                   {/* Background Gradient Overlay */}
-                  <div className="absolute inset-0 bg-linear-to-b from-cyan-500/0 via-transparent to-slate-900/10 dark:to-slate-900/50 opacity-0 group-hover:opacity-100 transition-all duration-500" />
+                  <div style={{
+                    position: 'absolute',
+                    inset: 0,
+                    background: 'linear-gradient(to bottom, transparent, rgba(15, 23, 42, 0.1))',
+                    opacity: hoveredId === founder.id ? 1 : 0,
+                    transition: 'opacity 0.5s'
+                  }} />
 
                   {/* Image Container */}
-                  <div className="relative h-80 md:h-72 overflow-hidden bg-linear-to-br from-slate-200 to-slate-300 dark:from-slate-800 dark:to-slate-900">
+                  <div style={{
+                    position: 'relative',
+                    height: '320px',
+                    overflow: 'hidden',
+                    background: 'linear-gradient(to bottom right, #e2e8f0, #cbd5e1)'
+                  }}>
                     <img
                       src={founder.image}
                       alt={founder.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      style={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                        transition: 'transform 0.5s',
+                        transform: hoveredId === founder.id ? 'scale(1.1)' : 'scale(1)'
+                      }}
                     />
                     
                     {/* Image Overlay */}
-                    <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" />
+                    <div style={{
+                      position: 'absolute',
+                      inset: 0,
+                      background: 'linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent)',
+                      opacity: hoveredId === founder.id ? 1 : 0,
+                      transition: 'opacity 0.5s'
+                    }} />
                   </div>
 
                   {/* Content Section */}
-                  <div className="relative p-6 space-y-4">
+                  <div style={{
+                    position: 'relative',
+                    padding: '24px'
+                  }}>
                     {/* Name & Role */}
-                    <div className="space-y-2">
-                      <h3 className="text-xl md:text-2xl font-bold text-global-text-primary group-hover:bg-linear-to-r group-hover:from-cyan-400 group-hover:to-blue-500 group-hover:bg-clip-text transition-all">
+                    <div style={{ marginBottom: '12px' }}>
+                      <h3 style={{
+                        fontSize: '20px',
+                        fontWeight: '700',
+                        color: '#0f172a',
+                        marginBottom: '6px',
+                        transition: 'all 0.3s'
+                      }}>
                         {founder.name}
                       </h3>
-                      <p className="text-sm font-semibold text-cyan-600 dark:text-cyan-400">
+                      <p style={{
+                        fontSize: '14px',
+                        fontWeight: '600',
+                        color: '#06b6d4'
+                      }}>
                         {founder.role}
                       </p>
                     </div>
 
                     {/* Bio */}
-                    <p className="text-sm text-global-text-secondary leading-relaxed group-hover:text-slate-900 dark:group-hover:text-slate-200 transition-all">
+                    <p style={{
+                      fontSize: '14px',
+                      color: '#64748b',
+                      lineHeight: '1.6',
+                      marginBottom: '16px'
+                    }}>
                       {founder.bio}
                     </p>
 
                     {/* Accent Line */}
-                    <div className="h-0.5 w-8 bg-linear-to-r from-cyan-400 to-blue-500 group-hover:w-16 transition-all duration-500" />
+                    <div style={{
+                      height: '2px',
+                      width: hoveredId === founder.id ? '64px' : '32px',
+                      background: 'linear-gradient(to right, #06b6d4, #3b82f6)',
+                      marginBottom: '16px',
+                      transition: 'width 0.5s'
+                    }} />
 
                     {/* Social Links */}
-                    <div className="flex gap-3 pt-2">
+                    <div style={{
+                      display: 'flex',
+                      gap: '12px',
+                      flexWrap: 'wrap'
+                    }}>
                       {Object.entries(founder.social).map(([type, url]) => {
                         if (!url) return null;
                         const Icon = getSocialIcon(type);
+                        const colorClass = getSocialColor(type);
                         return (
                           <button
                             key={type}
                             onClick={() => handleSocialClick(url, type)}
                             title={type.charAt(0).toUpperCase() + type.slice(1)}
-                            className={`p-2.5 rounded-lg bg-slate-100 dark:bg-slate-800/50 text-slate-600 dark:text-slate-400 transition-all duration-300 hover:bg-slate-200 dark:hover:bg-slate-700 ${getSocialColor(
-                              type
-                            )} hover:scale-110 transform`}
+                            style={{
+                              padding: '10px',
+                              borderRadius: '8px',
+                              backgroundColor: '#f1f5f9',
+                              color: '#64748b',
+                              border: 'none',
+                              cursor: 'pointer',
+                              transition: 'all 0.3s',
+                              display: 'flex',
+                              alignItems: 'center',
+                              justifyContent: 'center'
+                            }}
+                            className={`social-btn ${colorClass}`}
+                            onMouseEnter={e => {
+                              e.currentTarget.style.backgroundColor = '#e2e8f0';
+                              e.currentTarget.style.transform = 'scale(1.1)';
+                            }}
+                            onMouseLeave={e => {
+                              e.currentTarget.style.backgroundColor = '#f1f5f9';
+                              e.currentTarget.style.transform = 'scale(1)';
+                            }}
                           >
-                            <Icon className="w-4 h-4 md:w-5 md:h-5" />
+                            <Icon style={{ width: '18px', height: '18px' }} />
                           </button>
                         );
                       })}
                     </div>
                   </div>
-
-                  {/* Hover Corner Accent */}
-                  <div className="absolute top-0 right-0 w-0 h-0 border-l-20 border-b-20 border-l-transparent border-b-cyan-500/0 group-hover:border-b-cyan-500/30 transition-all duration-500" />
-                </div>
-              </div>
-            ))}
-            {/* Duplicate set for infinite loop */}
-            {founders.map((founder) => (
-              <div
-                key={`second-${founder.id}`}
-                onMouseEnter={() => setHoveredId(founder.id)}
-                onMouseLeave={() => setHoveredId(null)}
-                className="group relative flex-shrink-0 w-[280px] md:w-[320px]"
-              >
-                {/* Card Container */}
-                <div className="relative bg-whitebg-global-bg-primary rounded-2xl border border-cyan-900 overflow-hidden transition-all duration-500 hover:border-cyan-500/50 dark:hover:border-cyan-500/50 hover:shadow-2xl dark:hover:shadow-2xl dark:hover:shadow-cyan-500/10">
-                  
-                  {/* Background Gradient Overlay */}
-                  <div className="absolute inset-0 bg-linear-to-b from-cyan-500/0 via-transparent to-slate-900/10 dark:to-slate-900/50 opacity-0 group-hover:opacity-100 transition-all duration-500" />
-
-                  {/* Image Container */}
-                  <div className="relative h-80 md:h-72 overflow-hidden bg-linear-to-br from-slate-200 to-slate-300 dark:from-slate-800 dark:to-slate-900">
-                    <img
-                      src={founder.image}
-                      alt={founder.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                    
-                    {/* Image Overlay */}
-                    <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" />
-                  </div>
-
-                  {/* Content Section */}
-                  <div className="relative p-6 space-y-4">
-                    {/* Name & Role */}
-                    <div className="space-y-2">
-                      <h3 className="text-xl md:text-2xl font-bold text-global-text-primary group-hover:bg-linear-to-r group-hover:from-cyan-400 group-hover:to-blue-500 group-hover:bg-clip-text transition-all">
-                        {founder.name}
-                      </h3>
-                      <p className="text-sm font-semibold text-cyan-600 dark:text-cyan-400">
-                        {founder.role}
-                      </p>
-                    </div>
-
-                    {/* Bio */}
-                    <p className="text-sm text-global-text-secondary leading-relaxed group-hover:text-slate-900 dark:group-hover:text-slate-200 transition-all">
-                      {founder.bio}
-                    </p>
-
-                    {/* Accent Line */}
-                    <div className="h-0.5 w-8 bg-linear-to-r from-cyan-400 to-blue-500 group-hover:w-16 transition-all duration-500" />
-
-                    {/* Social Links */}
-                    <div className="flex gap-3 pt-2">
-                      {Object.entries(founder.social).map(([type, url]) => {
-                        if (!url) return null;
-                        const Icon = getSocialIcon(type);
-                        return (
-                          <button
-                            key={type}
-                            onClick={() => handleSocialClick(url, type)}
-                            title={type.charAt(0).toUpperCase() + type.slice(1)}
-                            className={`p-2.5 rounded-lg bg-slate-100 dark:bg-slate-800/50 text-slate-600 dark:text-slate-400 transition-all duration-300 hover:bg-slate-200 dark:hover:bg-slate-700 ${getSocialColor(
-                              type
-                            )} hover:scale-110 transform`}
-                          >
-                            <Icon className="w-4 h-4 md:w-5 md:h-5" />
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-
-                  {/* Hover Corner Accent */}
-                  <div className="absolute top-0 right-0 w-0 h-0 border-l-20 border-b-20 border-l-transparent border-b-cyan-500/0 group-hover:border-b-cyan-500/30 transition-all duration-500" />
                 </div>
               </div>
             ))}
@@ -473,36 +443,59 @@ const getSocialIcon = (type: string) => {
         </div>
 
         {/* Additional Info */}
-        <div className="text-center space-y-4 max-w-2xl mx-auto pt-8 md:pt-12">
-          <p className="text-slate-600 dark:text-slate-400">
+        <div style={{
+          textAlign: 'center',
+          marginTop: '64px',
+          maxWidth: '672px',
+          margin: '64px auto 0'
+        }}>
+          <p style={{
+            color: '#64748b',
+            fontSize: '16px'
+          }}>
             We Guarantee Quality Care, Love and Professionalism in Every Interaction.
           </p>
         </div>
       </div>
 
       <style>{`
-
         @keyframes scroll {
           0% {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(-50%);
+            transform: translateX(calc(-280px * ${founders.length} - 24px * ${founders.length}));
           }
-        }
-        
-        .animate-scroll {
-          animation: scroll 50s linear infinite;
-        }
-        
-        .animate-scroll:hover {
-          animation-play-state: paused;
         }
 
         @media (max-width: 768px) {
-          .animate-scroll {
-            animation: scroll 60s linear infinite;
+          @keyframes scroll {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translateX(calc(-280px * ${founders.length} - 24px * ${founders.length}));
+            }
           }
+        }
+
+        .social-btn.hover\\:text-red-500:hover {
+          color: #ef4444 !important;
+        }
+        .social-btn.hover\\:text-blue-600:hover {
+          color: #2563eb !important;
+        }
+        .social-btn.hover\\:text-sky-500:hover {
+          color: #0ea5e9 !important;
+        }
+        .social-btn.hover\\:text-gray-900:hover {
+          color: #111827 !important;
+        }
+        .social-btn.hover\\:text-pink-500:hover {
+          color: #ec4899 !important;
+        }
+        .social-btn.hover\\:text-purple-500:hover {
+          color: #a855f7 !important;
         }
       `}</style>
     </section>
