@@ -39,40 +39,40 @@ export const FAQ = () => {
         answer: "Absoultely! We provide 24/7 emergency services to ensure that our patients receive immediate care when they need it most.",
       },
       {
-        question: "",
-        answer: "",
+        question: "Where is the Hospital located?",
+        answer: "Our facility is conveniently situated on Nothern bypass in marurui Thome Kenya",
       },
       {
-        question: "",
-        answer: "",
+        question: "Do you accept SHA insurance?",
+        answer: "yes we proudly accept SHA insurance.",
       },
       {
-        question: "",
-        answer: "",
+        question: "Do you offer private rooms?",
+        answer: "Yes we offer comfortable rooms at a cost.",
       },
       {
-        question: "",
-        answer: "",
+        question: "Do you offer ultrasound services and at which cost?",
+        answer: "Yes we offer ultrasound services at a competitive price of ksh 1500.",
       },
       {
-        question: "",
-        answer: "",
+        question: "Do you offer CS services and at which cost?",
+        answer: "Yes we proudly offer cs services and note that cost vary if you are not registered with SHA .",
       },
       {
-        question: "",
-        answer: "",
+        question: "Is Mimosa Hospital private or public?",
+        answer: "Mimosa Hospital is a private healthcare facility.",
       },
       {
-        question: "",
-        answer: "",
+        question: "When should one book CS?",
+        answer: "Booking are typically done from 36 weeks of pregnancy onwards.",
       },
       {
-        question: "",
-        answer: "",
+        question: "How can we contact you",
+        answer: "You can reach us via phone at 0724948894",
       },
       {
-        question: "",
-        answer: "",
+        question: "Do you offer circumsion services?",
+        answer: "Yes we offer circumcission services at competitive prices.",
       }
     ],
     account: [
@@ -81,40 +81,40 @@ export const FAQ = () => {
         answer: "An Account provides resources to help you manage and track various relations eg. Appointments.",
       },
       {
-        question: "",
-        answer: "",
+        question: "How can I create an account?",
+        answer: "You can create an account by visiting our website and clicking on the 'Sign Up' button.",
       },
       {
-        question: "",
-        answer: "",
+        question: "What should I do if I forget my password?",
+        answer: "You can reset your password by clicking on the 'Forgot Password' link on the login page.",
       },
       {
-        question: "",
-        answer: "",
+        question: "How long does it take for my account to be activated?",
+        answer: "Your account is typically activated immediately after succesful registration.",
       },
       {
-        question: "",
-        answer: "",
+        question: "What information is required to create an account?",
+        answer: "You will need to provide your full name, email address, phone number, and a secure password.",
       },
       {
-        question: "",
-        answer: "",
+        question: "After creating an account will I be ablec to view my medical appointments?",
+        answer: "Yes, once you've created an account, you can log in and view your medical appointments.",
       },
       {
-        question: "",
-        answer: "",
+        question: "Will i be able to be notified of upcoming appointments?",
+        answer: "Yes, you will be notified of upcoming appointments via email or SMS provided you have an account and you allow notifications.",
       },
       {
-        question: "",
-        answer: "",
+        question: "What should i do if i didn't receive an expected notification?",
+        answer: "Please check your spam or junk folder in your email. If you still can't find the notification, contact our support team for assistance.",
       },
       {
-        question: "",
-        answer: "",
+        question: "How is my personal information protected?",
+        answer: "We use industry-standard security measures to protect your personal information. This includes encryption, secure servers, and access controls to prevent unauthorized access.",
       },
       {
-        question: "",
-        answer: "",
+        question: "What should i do if i am not able to create an account?",
+        answer: "You can use our bot which is available on our website to guide you through the account creation process or contact our support team for assistance.",
       },
     ]
   };
