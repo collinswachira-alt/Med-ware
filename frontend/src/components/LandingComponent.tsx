@@ -4,19 +4,17 @@ import HeroComponent from './HeroComponent';
 import HospitalStats from './StatsComponent';
 import HowItWorks from './HowItWorks';
 import NavBar from './NavBar';
-import MedicalServices from './MedicalServices';
 import ExpertsTeam from './ExpertsTeam';
 import LandingFooter from './LandingFooter';
 import Footer from './Footer';
 import FAQ from './FAQs';
+import { ServiceCard, MEDICAL_SERVICES } from './ServiceCard';
 
 const HospitalLandingPage = () => {
   const [isLoading, setIsLoading] = useState(true);
-  const [isVideoModalOpen] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => setIsLoading(false), 2500);
-    console.log("isVideoModalOpen:", isVideoModalOpen );
     return () => clearTimeout(timer);
   }, []);
 
@@ -46,8 +44,30 @@ const HospitalLandingPage = () => {
       <NavBar />
       <HeroComponent />
       <HospitalStats />
-      {/* <HowItWorks />
-      <MedicalServices /> */}
+      
+      {/* Medical Services Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div className="max-w-8xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+              Our Medical Services
+            </h2>
+            <p className="text-lg text-gray-600">
+              Comprehensive healthcare solutions tailored to your needs
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {MEDICAL_SERVICES.map((service) => (
+              <ServiceCard
+                key={service.slug}
+                service={service}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+      
       <ExpertsTeam />
       <FAQ />
       <LandingFooter />

@@ -1,4 +1,4 @@
- import { Phone, MapPin, Mail, Heart } from 'lucide-react';
+ import { Phone, MapPin, Mail, Cross } from 'lucide-react';
 
  
  const LandingFooter = () => {
@@ -9,8 +9,8 @@
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 bg-linear-to-br from-blue-600 to-sky-500 rounded-lg flex items-center justify-center">
-                  <Heart className="w-6 h-6 text-white" fill="white" />
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center">
+                  <Cross className="w-6 h-6 text-blue-600" fill="white" />
                 </div>
                 <span className="text-xl font-bold">MedWare Plus</span>
               </div>

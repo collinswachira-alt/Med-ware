@@ -1,8 +1,11 @@
-import { CheckCircle, Users, Award, Heart } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
+import ProffesionalSVG from '../assets/whiteProf.svg';
+import HappyPatientsSVG from '../assets/happy-patients.svg';
+import RisingRateSVG from '../assets/rising-rate.svg';
+import StarSVG from '../assets/star.svg';
 
 interface StatType {
-  icon: typeof Users;
+  icon: any;
   number: string;
   label: string;
 }
@@ -13,10 +16,10 @@ const HospitalStats = () => {
   const sectionRef = useRef<HTMLElement>(null);
 
   const stats: StatType[] = [
-    { icon: Users, number: '21+', label: 'Expert Doctors' },
-    { icon: Heart, number: '1500+', label: 'Happy Patients' },
-    { icon: CheckCircle, number: '95+', label: '% Success Rate' },
-    { icon: Award, number: '10+', label: 'Years Of Service' },
+    { icon: ProffesionalSVG, number: '21+', label: 'Expert Doctors' },
+    { icon: HappyPatientsSVG, number: '1500+', label: 'Happy Patients' },
+    { icon: RisingRateSVG, number: '95+', label: '% Success Rate' },
+    { icon: StarSVG, number: '10+', label: 'Years Of Service' },
   ];
 
   // Parse number from string (e.g., "5000+" -> 5000, "95%" -> 95)
@@ -106,12 +109,14 @@ const HospitalStats = () => {
 
   return (
     <div>
-      <section ref={sectionRef} className="bg-linear-to-r from-blue-800 via-blue-600 to-sky-500 py-12 md:py-16">
+      <section ref={sectionRef} className="bg-linear-to-r from-blue-800 via-blue-600 to-sky-500 cursor-pointer py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
             {stats.map((stat, idx) => (
               <div key={idx} className="text-center text-white transform hover:scale-105 transition-transform">
-                <stat.icon className="w-10 h-10 md:w-12 md:h-12 mx-auto mb-3 opacity-90" />
+                <div className="w-10 h-10 md:w-12 md:h-12 mx-auto mb-3 opacity-90"> 
+                  <img src={stat.icon} alt="" />
+                </div>
                 <div className="text-3xl md:text-4xl font-bold mb-1">
                   {formatNumber(counts[idx], stat.number)}
                 </div>

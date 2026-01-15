@@ -15,7 +15,7 @@ export const TypewriterGradient = ({
   speed = 100,
   delayBetweenTexts = 2000,
   className = "block",
-  gradientClassName = "bg-linear-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent",
+  gradientClassName = "bg-linear-to-r from-blue-600 via-blue-500 to-blue-600 bg-clip-text text-transparent",
   loop = true,
   onCycleComplete
 }: TypewriterGradientProps) => {
@@ -81,32 +81,6 @@ export const TypewriterGradient = ({
         {displayedText}
         {isTyping && <span className="animate-pulse text-cyan-800 text-shadow-cyan-50">|</span>}
       </span>
-  );
-};
-
-// Example usage component
-export const ServiceShowcase = () => {
-  const services = [
-    'Crypto Payments',
-    'Global Transfers',
-    'Remittances',
-    'DeFi Integration',
-    'Staking Services'
-  ];
-
-  return (
-    <div className="flex items-center justify-center min-h-screen bg-slate-950">
-      <div className="text-center max-w-2xl px-6">
-        <p className="text-slate-400 text-lg mb-6">Best for:</p>
-        <TypewriterGradient
-          texts={services}
-          speed={80}
-          delayBetweenTexts={2000}
-          className="block text-4xl lg:text-5xl font-bold min-h-20"
-          loop={true}
-        />
-      </div>
-    </div>
   );
 };
 

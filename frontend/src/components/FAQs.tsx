@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MessageCircle, Plus, Minus, User, CrossIcon } from 'lucide-react';
+import { MessageCircle, Plus, Minus, User, HeartPulse } from 'lucide-react';
 
 interface FAQItem {
   question: string;
@@ -21,7 +21,7 @@ export const FAQ = () => {
     {
       id: 'services',
       label: "Services",
-      icon: CrossIcon,
+      icon: HeartPulse,
       color: 'from-cyan-500 to-blue-500'
     },
     {
@@ -40,39 +40,39 @@ export const FAQ = () => {
       },
       {
         question: "Where is the Hospital located?",
-        answer: "Our facility is conveniently situated on Nothern bypass in marurui Thome Kenya",
+        answer: "Our facility is conveniently situated on Nothern bypass in Marurui Thome Kenya",
+      },
+      {
+        question: "Which Services are you best known for?",
+        answer: "M.C.H is best known for several services including ,but not limited to, General Connsultations, Maternity, Male Circumcision, Ultrasound Services, and Emergency Care.",
       },
       {
         question: "Do you accept SHA insurance?",
-        answer: "yes we proudly accept SHA insurance.",
+        answer: "Yes, we proudly accept SHA insurance.",
       },
       {
         question: "Do you offer private rooms?",
-        answer: "Yes we offer comfortable rooms at a cost.",
+        answer: "Yes, we offer comfortable rooms at convinient prices.",
       },
       {
         question: "Do you offer ultrasound services and at which cost?",
-        answer: "Yes we offer ultrasound services at a competitive price of ksh 1500.",
+        answer: "Absolutely, we offer ultrasound services at an affordable price.",
       },
       {
         question: "Do you offer CS services and at which cost?",
-        answer: "Yes we proudly offer cs services and note that cost vary if you are not registered with SHA .",
+        answer: "Yes, we proudly offer cs services and note that cost vary if you are not registered with SHA .",
       },
       {
         question: "Is Mimosa Hospital private or public?",
-        answer: "Mimosa Hospital is a private healthcare facility.",
+        answer: "Mimosa Hospital is a private healthcare facility which is committed to serve the public without bias.",
       },
       {
         question: "When should one book CS?",
         answer: "Booking are typically done from 36 weeks of pregnancy onwards.",
       },
       {
-        question: "How can we contact you",
-        answer: "You can reach us via phone at 0724948894",
-      },
-      {
-        question: "Do you offer circumsion services?",
-        answer: "Yes we offer circumcission services at competitive prices.",
+        question: "Do you offer Ambulance and Transport Services?",
+        answer: "Absolutely, we provide ambulance and transport services to ensure timely medical assistance and patient transfers when needed.",
       }
     ],
     account: [
@@ -98,7 +98,7 @@ export const FAQ = () => {
       },
       {
         question: "After creating an account will I be ablec to view my medical appointments?",
-        answer: "Yes, once you've created an account, you can log in and view your medical appointments.",
+        answer: "Yes, once you've created an account, you can Log In and view your medical appointments.",
       },
       {
         question: "Will i be able to be notified of upcoming appointments?",

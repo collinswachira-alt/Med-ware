@@ -1,8 +1,22 @@
-import { Clock, ChevronRight, Users } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 import FloatingMedicalBackground from './FloatingItems';
+import TypewriterGradient from './TypeScript';
+import ProffesionalSVG from '../assets/proffesional.svg';
+import AllTimeSVG from '../assets/247.svg';
 
 
 const HeroComponent = () => {
+  const services = [
+    'Martenity Care',
+    'Child Wellness',
+    'Family Planning',
+    'Diagnosis & Lab Tests',
+    'Emergency Care',
+    'STIs and HIV/AIDS',
+    'Breast Cancer Screening',
+    'Immunizations',
+    'General Checkups'
+  ];
   return (
     <div className='mt-30'>
       <FloatingMedicalBackground />
@@ -11,10 +25,15 @@ const HeroComponent = () => {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="space-y-6 md:space-y-8 order-2 md:order-1">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                Trusted Medical Care at{' '}
-                <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-sky-500">
-                  Your Fingertips
-                </span>
+                Trusted for:{' '}
+                <p className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-sky-500">
+                <TypewriterGradient
+                  texts={services}
+                  speed={200}
+                  delayBetweenTexts={200}
+                  loop={true}
+                />
+                </p>
               </h1>
               <p className="text-base md:text-lg text-gray-600">
                 Find trusted doctors, book appointments instantly, and take control of your wellness journey with our comprehensive Medi-Wareplatform.
@@ -25,17 +44,21 @@ const HeroComponent = () => {
                 </button>
               </div>
               <div className="grid grid-cols-2 gap-4 pt-4">
-                <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <div className="bg-white p-4">
                   <div className="flex items-center gap-2 text-blue-600 mb-1">
-                    <Clock className="w-5 h-5" />
+                    <div className="w-7 h-7 flex items-center justify-center">
+                     <img src={AllTimeSVG} alt="Doctor" />
+                    </div>
                     <span className="font-semibold">24/7 Available</span>
                   </div>
                   <p className="text-sm text-gray-600">Round-the-clock care</p>
                 </div>
-                <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <div className="bg-white p-4">
                   <div className="flex items-center gap-2 text-blue-600 mb-1">
-                    <Users className="w-5 h-5" />
-                    <span className="font-semibold">Expert Doctors</span>
+                  <div className="w-7 h-7 flex items-center justify-center">
+                    <img src={ProffesionalSVG} alt="Doctor" />
+                  </div>
+                  <span className="font-semibold">Expert Doctors</span>
                   </div>
                   <p className="text-sm text-gray-600">Board-certified team</p>
                 </div>
