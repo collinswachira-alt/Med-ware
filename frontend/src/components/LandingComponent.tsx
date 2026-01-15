@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { Heart } from 'lucide-react';
 import HeroComponent from './HeroComponent';
 import HospitalStats from './StatsComponent';
-import HowItWorks from './HowItWorks';
 import NavBar from './NavBar';
 import ExpertsTeam from './ExpertsTeam';
 import LandingFooter from './LandingFooter';

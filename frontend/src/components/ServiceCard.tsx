@@ -66,7 +66,7 @@ export function ServiceCard({ service, onClick }: ServiceCardProps) {
     if (onClick) {
       onClick(service.slug);
     } else {
-      navigate(`/services`);
+      navigate(`/services/${service.slug}`);
     }
   };
 

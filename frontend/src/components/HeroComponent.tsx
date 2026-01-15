@@ -11,11 +11,15 @@ const HeroComponent = () => {
     'Child Wellness',
     'Family Planning',
     'Diagnosis & Lab Tests',
+    'Ambulance & Refferal',
     'Emergency Care',
     'STIs and HIV/AIDS',
     'Breast Cancer Screening',
+    'Cervical Cancer Screening',
     'Immunizations',
-    'General Checkups'
+    'General Checkups',
+    'In&Out Patient Services',
+    'Blood Transfusion'
   ];
   return (
     <div className='mt-30'>
