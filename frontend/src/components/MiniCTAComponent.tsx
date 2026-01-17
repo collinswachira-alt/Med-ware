@@ -10,7 +10,7 @@ export const MiniCTAComponent: React.FC = () => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-blue-600 to-sky-500 p-6 rounded-lg text-white">
+    <div className="bg-linear-to-br from-blue-600 to-sky-500 p-6 rounded-lg text-white">
       <h3 className="text-xl font-bold mb-3">Get Quality Care</h3>
       <p className="text-blue-50 mb-4 text-sm">
         Get quality care at Mimosa Cottage Hospital. Schedule your appointment today.

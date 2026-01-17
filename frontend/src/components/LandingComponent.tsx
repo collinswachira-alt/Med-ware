@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Heart } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { Heart, ArrowRight } from 'lucide-react';
 import HeroComponent from './HeroComponent';
 import HospitalStats from './StatsComponent';
 import NavBar from './NavBar';
@@ -10,6 +11,7 @@ import FAQ from './FAQs';
 import { ServiceCard, MEDICAL_SERVICES } from './ServiceCard';
 
 const HospitalLandingPage = () => {
+  const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -63,6 +65,17 @@ const HospitalLandingPage = () => {
                 service={service}
               />
             ))}
+          </div>
+
+          {/* View All Services Button */}
+          <div className="flex justify-center mt-12">
+            <button
+              onClick={() => navigate('/services')}
+              className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200"
+            >
+              View All Services
+              <ArrowRight className="w-5 h-5" />
+            </button>
           </div>
         </div>
       </section>

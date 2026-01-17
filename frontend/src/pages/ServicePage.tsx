@@ -11,12 +11,11 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import LandingFooter from '../components/LandingFooter';
 import FloatingMedicalBackground from '../components/FloatingItems';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
 
 export const ServicePage: React.FC = () => {
   const { serviceSlug = '' } = useParams<{ serviceSlug: string }>();
   const navigate = useNavigate();
+  
   const service = serviceSlug ? getServiceBySlug(serviceSlug) : undefined;
   const relatedServices = service ? getRelatedServices(serviceSlug) : [];
 
@@ -31,6 +30,13 @@ export const ServicePage: React.FC = () => {
         <NavBar />
         <FloatingMedicalBackground />
         <div className="max-w-7xl mt-70 mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+          <button
+            onClick={() => navigate('/')}
+            className="flex items-center gap-2 text-blue-600 hover:text-blue-800 mb-8"
+          >
+            <ArrowLeft className="w-5 h-5" />
+            Back to Home
+          </button>
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">Service Not Found</h1>
             <p className="text-gray-600 mb-8">
@@ -40,25 +46,32 @@ export const ServicePage: React.FC = () => {
               onClick={() => navigate('/')}
               className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors"
             >
-              Return to Home <FontAwesomeIcon icon={faHome} />
+              Return to Home
             </button>
           </div>
-
         </div>
-         <div className='mt-50'>
-         <LandingFooter />
-         <Footer />
-         </div>
+        <div className="mt-65">
+          <LandingFooter />
+          <Footer />
+        </div>
       </div>
     );
   }
 
   return (
     <div className="min-h-screen bg-white">
-        <NavBar />
-        <FloatingMedicalBackground />
+      <NavBar />
+      <FloatingMedicalBackground />
 
       <div className="max-w-7xl mt-10 mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+        {/* Back Button */}
+        <button
+          onClick={() => navigate('/')}
+          className="flex items-center gap-2 text-blue-600 hover:text-blue-800 mb-6 transition-colors"
+        >
+          <ArrowLeft className="w-5 h-5" />
+          Back to Home
+        </button>
 
         {/* Breadcrumb */}
         <Breadcrumb serviceName={service.title} />
@@ -70,7 +83,6 @@ export const ServicePage: React.FC = () => {
             alt={service.title}
             className="w-full h-96 object-cover"
             onError={(e) => {
-              // Fallback to gradient if image fails to load
               const target = e.target as HTMLImageElement;
               target.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
               target.style.display = 'none';
@@ -89,10 +101,8 @@ export const ServicePage: React.FC = () => {
               {service.summary}
             </p>
 
-            {/* Content Renderer */}
-            <div className="prose prose-lg max-w-none">
-              <ContentRenderer content={service.markdownContent} />
-            </div>
+            {/* Content Renderer - Uses centralized markdown content */}
+            <ContentRenderer content={service.markdownContent} />
           </div>
 
           {/* Side Panel - Right on desktop, below on mobile */}

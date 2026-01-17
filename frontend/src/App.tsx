@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { LandingPage } from "./pages/LandingPage";
 import ServicePage from "./pages/ServicePage";
+import ServicesPage from "./pages/ServicesPage";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
 
         {/* Services Routes - Group routing */}
         <Route path="/services">
+          <Route index element={<ServicesPage />} />
           <Route path=":serviceSlug" element={<ServicePage />} />
         </Route>
       </Routes>

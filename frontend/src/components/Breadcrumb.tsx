@@ -4,6 +4,7 @@ import { ChevronRight } from 'lucide-react';
 
 interface BreadcrumbProps {
   serviceName: string;
+  serviceSlug?: string; // accepted for compatibility; not currently used
 }
 
 export const Breadcrumb: React.FC<BreadcrumbProps> = ({ serviceName }) => {
@@ -13,7 +14,7 @@ export const Breadcrumb: React.FC<BreadcrumbProps> = ({ serviceName }) => {
         Home
       </Link>
       <ChevronRight className="w-4 h-4 text-gray-400" />
-      <Link to="/" className="text-blue-600 hover:text-blue-800 underline">
+      <Link to="/services" className="text-blue-600 hover:text-blue-800 underline">
         Services
       </Link>
       <ChevronRight className="w-4 h-4 text-gray-400" />

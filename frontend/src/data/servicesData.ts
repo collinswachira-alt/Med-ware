@@ -13,11 +13,14 @@ export const services: Service[] = [
     title: 'Maternity Care',
     slug: 'maternity-care',
     summary: 'Comprehensive prenatal, natal, and postnatal care for expecting mothers and newborns.',
-    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1768056209/maternity-care_example.jpg',
+    featuredImage: 'https://maternityandmidwifery.co.uk/wp-content/uploads/2025/09/Lesley-Turner-September-2025.png',
     markdownContent: `# Maternity Care at Mimosa Cottage Hospital
 
 ## Overview
+
 We provide world-class maternity services designed to ensure the health and safety of both mother and baby throughout the pregnancy journey.
+
+![Pregnant woman receiving ultrasound examination](https://i.guim.co.uk/img/media/5ffa5bdd1c7845f2d835c221841489ba10a97dea/12_283_5750_3451/master/5750.jpg?width=1900&dpr=1&s=none&crop=none)
 
 ## Our Services
 - **Prenatal Care**: Regular check-ups, ultrasounds, and screening tests to monitor fetal development
@@ -26,6 +29,9 @@ We provide world-class maternity services designed to ensure the health and safe
 - **High-Risk Pregnancy Management**: Specialized care for complex pregnancies
 
 ## Facilities
+
+![Modern delivery suite with medical equipment](https://www.medicareexel.net/wp-content/uploads/2023/11/Maternity-and-antenatal-services-992x525.jpg)
+
 - State-of-the-art delivery suites
 - Neonatal Intensive Care Unit (NICU)
 - Lactation consultants
@@ -52,6 +58,8 @@ Our experienced obstetricians and midwives are dedicated to providing compassion
 
 ## Overview
 We are committed to supporting your child's health and well-being with compassionate, comprehensive pediatric care.
+
+![Pediatrician examining a child with stethoscope](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMTSztomSflWVBY0WGO8Lrdia3sB-zMCFPwQ&s)
 
 ## Our Services
 - **Well-Child Visits**: Growth monitoring and developmental assessments
@@ -80,39 +88,91 @@ We are committed to supporting your child's health and well-being with compassio
     title: 'Family Planning',
     slug: 'family-planning',
     summary: 'Confidential family planning services to help you make informed reproductive health decisions.',
-    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1768056209/family-planning_example.jpg',
+    featuredImage: 'https://media.istockphoto.com/id/1092392644/photo/doctor-consulting-with-young-couple-patients.jpg?s=612x612&w=0&k=20&c=Jg1U-oTQyBOkuQ9rr3DpuUCRFPEmiJEU8ya2wfLjsec=',
     markdownContent: `# Family Planning at Mimosa Cottage Hospital
 
 ## Overview
-We provide confidential, non-judgmental family planning services to help you achieve your reproductive goals.
 
-## Contraceptive Options
-- **Barrier Methods**: Condoms and diaphragms
-- **Hormonal Methods**: Oral contraceptives, patches, and injections
-- **Long-Acting Methods**: IUDs and implants
-- **Permanent Methods**: Tubal ligation and vasectomy
+We provide confidential, non-judgmental family planning services to help you achieve your reproductive goals. Whether you're planning to start a family, space your pregnancies, or explore contraceptive options, our experienced team is here to support you with evidence-based guidance.
+
+![Doctor consulting with young couple patients](https://media.istockphoto.com/id/1092392644/photo/doctor-consulting-with-young-couple-patients.jpg?s=612x612&w=0&k=20&c=Jg1U-oTQyBOkuQ9rr3DpuUCRFPEmiJEU8ya2wfLjsec=)
+
+## Comprehensive Contraceptive Counseling
+
+Our team provides thorough counseling on all available contraceptive methods, helping you find the option that best fits your lifestyle and health profile.
+
+### Barrier Methods
+- Condoms and diaphragms
+- Non-hormonal protection
+- STI prevention benefits
+
+### Hormonal Methods
+- Oral contraceptives (birth control pills)
+- Transdermal patches
+- Injectable contraceptives
+- Flexible dosing schedules
+
+### Long-Acting Reversible Contraceptives (LARCs)
+- Intrauterine devices (IUDs)
+- Contraceptive implants
+- Highly effective (99%+)
+- Minimal maintenance
+
+### Permanent Methods
+- Tubal ligation
+- Vasectomy
+- Irreversible options
+- Surgical consultation and support
 
 ## Services Offered
-- Comprehensive reproductive health counseling
-- STI screening and testing
-- Contraceptive method selection assistance
-- Fertility assessment
-- Pregnancy planning consultations
-- Emergency contraception
 
-## Our Approach
-- Evidence-based recommendations tailored to your needs
-- Thorough counseling on all available options
-- Regular follow-up care
-- Complete confidentiality and respect
+- Comprehensive reproductive health counseling
+- STI screening and testing with rapid results
+- Contraceptive method selection assistance
+- Fertility assessment and testing
+- Pregnancy planning consultations and pre-conception counseling
+- Emergency contraception (Plan B)
+- Menstrual disorder management
+- Sexual health education
+
+## Our Compassionate Approach
+
+![Family planning consultation room](https://familymedicineaustin.com/wp-content/uploads/2022/04/9.jpg)
+
+- Evidence-based recommendations tailored to your unique needs
+- Thorough counseling on all available options with pros and cons
+- Regular follow-up care and method adjustment
+- Complete confidentiality and respect for your privacy
+- Non-judgmental, inclusive environment
+- Support for all relationship types and family structures
+
+## Fertility Services
+
+If you're planning to conceive:
+- Fertility assessment and diagnostic testing
+- Ovulation tracking and timing guidance
+- Pre-conception health optimization
+- Referral to fertility specialists when needed
 
 ## Who Should Visit
-- Anyone seeking contraceptive advice
-- Couples planning pregnancy
-- Those concerned about STI exposure
-- Individuals wanting reproductive health education
 
-**Book a consultation** with our experienced family planning specialists.`,
+- Anyone seeking contraceptive advice or method change
+- Couples planning pregnancy or spacing pregnancies
+- Those concerned about STI exposure or sexual health
+- Individuals wanting reproductive health education
+- Anyone with menstrual or sexual health concerns
+- Young adults seeking reproductive planning
+
+## Why Choose Our Family Planning Services
+
+- Experienced clinicians specializing in reproductive health
+- Latest contraceptive methods and technologies
+- Convenient appointment scheduling
+- Affordable options for all budget levels
+- Same-day prescription services
+- No insurance required
+
+**Book a confidential consultation** with our experienced family planning specialists. We're here to support your reproductive health journey.`,
   },
   {
     id: '4',
@@ -124,6 +184,8 @@ We provide confidential, non-judgmental family planning services to help you ach
 
 ## Overview
 We offer comprehensive laboratory and diagnostic services with rapid, accurate results to support your healthcare decisions.
+
+![Modern laboratory with diagnostic equipment](https://emoryhospital.co.ke/wp-content/uploads/2024/03/medic-holding-radiography-examination-with-patient-coronavirus-pandemic-doctor-explaining-x-ray-scan-results-diagnosis-woman-wearing-face-masks-protection-1.jpg)
 
 ## Available Tests
 - **Blood Tests**: Complete blood counts, chemistry panels, lipid profiles
