@@ -24,7 +24,7 @@ export interface ParsedBlock {
     | 'quote';
   level?: number; // For headings
   content?: React.ReactNode;
-  items?: string[]; // For lists
+  items?: React.ReactNode[]; // For lists
   ordered?: boolean; // For lists
   src?: string; // For images
   alt?: string; // For images
@@ -200,12 +200,12 @@ export function parseMarkdown(markdown: string): ParsedBlock[] {
     // Lists
     if (line.match(/^[-*+]\s+/) || line.match(/^\d+\.\s+/)) {
       const ordered = line.match(/^\d+\.\s+/) !== null;
-      const items: string[] = [];
+      const items: React.ReactNode[] = [];
 
       while (i < lines.length && lines[i].match(/^[-*+]\s+|^\d+\.\s+/)) {
         const match = lines[i].match(/^[-*+]\s+(.+)$|^\d+\.\s+(.+)$/);
         if (match) {
-          items.push(match[1] || match[2]);
+          items.push(parseInlineMarkdown(match[1] || match[2]));
         }
         i++;
       }

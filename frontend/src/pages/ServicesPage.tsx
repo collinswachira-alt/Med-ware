@@ -3,9 +3,9 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { services } from '../data/servicesData';
 import ServiceCard from '../components/ServiceCard';
 import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
 import LandingFooter from '../components/LandingFooter';
 import FloatingMedicalBackground from '../components/FloatingItems';
+import { Breadcrumb } from '../components/Breadcrumb';
 
 const ITEMS_PER_PAGE = 9;
 
@@ -80,9 +80,10 @@ export const ServicesPage: React.FC = () => {
       <NavBar />
       <FloatingMedicalBackground />
 
-      <div className="max-w-8xl mt-20 mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+      <div className="max-w-8xl mt-25 mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         {/* Page Header */}
         <div className="mb-12">
+          <Breadcrumb serviceName='null' />
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Our Services
           </h1>
@@ -166,7 +167,6 @@ export const ServicesPage: React.FC = () => {
       </div>
 
       <LandingFooter />
-      <Footer />
     </div>
   );
 };

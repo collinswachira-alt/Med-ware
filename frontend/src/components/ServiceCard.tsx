@@ -12,7 +12,7 @@ interface ServiceItems {
 export const MEDICAL_SERVICES: ServiceItems[] = [
   {
     title: 'Maternal & Child Health',
-    slug: 'maternal-child-health',
+    slug: 'maternity-care',
     excerpt: 'Complete heart care with advanced diagnostics',
     coverImage: { url: 'https://maternityandmidwifery.co.uk/wp-content/uploads/2025/09/Lesley-Turner-September-2025.png', alt: 'Maternal & Child Health' },
     featured: false

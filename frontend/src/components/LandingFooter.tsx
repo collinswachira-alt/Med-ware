@@ -2,6 +2,7 @@
 
  
  const LandingFooter = () => {
+    const currentYear = new Date().getFullYear();
 
   return (
      <footer id="contact" className="bg-gray-900 text-white py-12 md:py-16">
@@ -10,7 +11,7 @@
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-10 h-10 rounded-lg flex items-center justify-center">
-                  <Cross className="w-6 h-6 text-blue-600" fill="white" />
+                  <Cross className="w-6 h-6 text-white" fill="white" />
                 </div>
                 <span className="text-xl font-bold">MedWare Plus</span>
               </div>
@@ -22,10 +23,12 @@
             <div>
               <h3 className="text-lg font-bold mb-4">Quick Links</h3>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#home" className="hover:text-white transition-colors">Home</a></li>
-                <li><a href="#services" className="hover:text-white transition-colors">Services</a></li>
-                <li><a href="#doctors" className="hover:text-white transition-colors">Doctors</a></li>
-                <li><a href="#about" className="hover:text-white transition-colors">About Us</a></li>
+                <li><a href="home" className="hover:text-white transition-colors">Home</a></li>
+                <li><a href="terms" className="hover:text-white transition-colors">Terms</a></li>
+                <li><a href="privacy" className="hover:text-white transition-colors">Privacy</a></li>
+                <li><a href="services" className="hover:text-white transition-colors">Services</a></li>
+                <li><a href="careers" className="hover:text-white transition-colors">Careers</a></li>
+                <li><a href="about" className="hover:text-white transition-colors">About Us</a></li>
               </ul>
             </div>
 
@@ -57,7 +60,13 @@
               </ul>
             </div>
           </div>
+
         </div>
+          <div className="max-w- text-sm border-t-2 text-global-text-secondary text-center">
+            <p className="text-global-text-primary mt-6 font-semibold">
+              &copy; {currentYear} {"MedWare"}. All rights reserved.
+            </p>
+          </div>
       </footer>
     );
 };

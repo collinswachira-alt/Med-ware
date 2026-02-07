@@ -8,7 +8,6 @@ import { QuickNavigation } from '../components/QuickNavigation';
 import { ShareComponent } from '../components/ShareComponent';
 import { MiniCTAComponent } from '../components/MiniCTAComponent';
 import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
 import LandingFooter from '../components/LandingFooter';
 import FloatingMedicalBackground from '../components/FloatingItems';
 
@@ -52,7 +51,6 @@ export const ServicePage: React.FC = () => {
         </div>
         <div className="mt-65">
           <LandingFooter />
-          <Footer />
         </div>
       </div>
     );
@@ -116,7 +114,6 @@ export const ServicePage: React.FC = () => {
         </div>
       </div>
       <LandingFooter />
-      <Footer />
     </div>
   );
 };

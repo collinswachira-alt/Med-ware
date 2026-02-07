@@ -6,7 +6,6 @@ import HospitalStats from './StatsComponent';
 import NavBar from './NavBar';
 import ExpertsTeam from './ExpertsTeam';
 import LandingFooter from './LandingFooter';
-import Footer from './Footer';
 import FAQ from './FAQs';
 import { ServiceCard, MEDICAL_SERVICES } from './ServiceCard';
 
@@ -83,7 +82,6 @@ const HospitalLandingPage = () => {
       <ExpertsTeam />
       <FAQ />
       <LandingFooter />
-      <Footer />
 
     </div>
   );

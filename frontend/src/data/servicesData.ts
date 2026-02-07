@@ -48,40 +48,54 @@ Our experienced obstetricians and midwives are dedicated to providing compassion
 
 **Contact us** to schedule your maternity consultation today.`,
   },
-  {
+ {
     id: '2',
     title: 'Child Wellness',
     slug: 'child-wellness',
-    summary: 'Pediatric care focused on the healthy growth and development of children from infancy through adolescence.',
-    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1768056209/child-wellness_example.jpg',
+    summary: 'Pediatric care focused on healthy growth, development, and preventive care from infancy through adolescence.',
+    featuredImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMTSztomSflWVBY0WGO8Lrdia3sB-zMCFPwQ&s',
     markdownContent: `# Child Wellness at Mimosa Cottage Hospital
 
 ## Overview
-We are committed to supporting your child's health and well-being with compassionate, comprehensive pediatric care.
+We support your child’s health at every stage with preventive care, early screening, and family-centered guidance. Our goal is to help children grow, thrive, and reach their full potential through attentive, compassionate care.
 
-![Pediatrician examining a child with stethoscope](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMTSztomSflWVBY0WGO8Lrdia3sB-zMCFPwQ&s)
+![Happy Children Playing](https://images.pexels.com/photos/4543646/pexels-photo-4543646.jpeg?_gl=1*bcwfme*_ga*MTE3MzkwNDYxOC4xNzcwNDcyODU5*_ga_8JE65Q40S6*czE3NzA0NzI4NTgkbzEkZzEkdDE3NzA0NzI4NjUkajUzJGwwJGgw)
 
-## Our Services
-- **Well-Child Visits**: Growth monitoring and developmental assessments
-- **Immunizations**: Complete vaccination schedules and catch-up vaccines
-- **Acute Care**: Treatment of common childhood illnesses
-- **Chronic Disease Management**: Ongoing care for conditions like asthma and allergies
-- **Developmental Screening**: Early identification of developmental delays
+## Well-Child Visits & Preventive Care
+- **Growth Monitoring**: Height, weight, and BMI tracking
+- **Developmental Milestones**: Age-appropriate screening and counseling
+- **Immunizations**: Routine and catch-up vaccines
+- **Nutrition Guidance**: Feeding support from infancy to adolescence
+- **Safety Counseling**: Injury prevention and safe home practices
 
-## Why Choose Us
-- Experienced pediatricians specializing in child development
+## Clinical Services
+- **Acute Illness Care**: Colds, flu, ear infections, stomach upsets
+- **Chronic Condition Management**: Asthma, allergies, eczema
+- **School Health Support**: Medical notes and care plans
+- **Adolescent Health**: Growth counseling, nutrition, and mental well-being
+
+## Development & Behavioral Screening
+We screen for developmental delays and behavioral concerns early so families can access support quickly.
+
+- Speech and language development
+- Social and emotional development
+- Learning and attention concerns
+- Autism screening when indicated
+
+## Family Education & Support
+We partner with parents and caregivers, offering practical guidance on:
+- Infant feeding and breastfeeding support
+- Sleep routines and healthy habits
+- Childhood nutrition and physical activity
+- Age-appropriate safety and injury prevention
+
+## Why Families Choose Us
 - Child-friendly environment to reduce anxiety
-- Comprehensive health education for parents
-- Coordination with schools and other healthcare providers
+- Evidence-based care tailored to each child
+- Coordinated referrals when specialized care is needed
+- Clear communication and respectful, confidential care
 
-## Services Include
-- Routine check-ups and vaccinations
-- Treatment of ear infections, colds, and flu
-- Asthma and allergy management
-- Growth and development tracking
-- Nutritional guidance
-
-**Schedule your child's wellness visit** to ensure they're thriving at every stage of life.`,
+**Schedule your child’s wellness visit** to keep them healthy and thriving at every stage of life.`,
   },
   {
     id: '3',
@@ -94,8 +108,6 @@ We are committed to supporting your child's health and well-being with compassio
 ## Overview
 
 We provide confidential, non-judgmental family planning services to help you achieve your reproductive goals. Whether you're planning to start a family, space your pregnancies, or explore contraceptive options, our experienced team is here to support you with evidence-based guidance.
-
-![Doctor consulting with young couple patients](https://media.istockphoto.com/id/1092392644/photo/doctor-consulting-with-young-couple-patients.jpg?s=612x612&w=0&k=20&c=Jg1U-oTQyBOkuQ9rr3DpuUCRFPEmiJEU8ya2wfLjsec=)
 
 ## Comprehensive Contraceptive Counseling
 
@@ -179,13 +191,13 @@ If you're planning to conceive:
     title: 'Diagnosis & Lab Tests',
     slug: 'diagnosis-lab-tests',
     summary: 'Accurate laboratory testing and diagnostic services using state-of-the-art equipment and technology.',
-    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1768056209/lab-tests_example.jpg',
+    featuredImage: 'https://emoryhospital.co.ke/wp-content/uploads/2024/03/medic-holding-radiography-examination-with-patient-coronavirus-pandemic-doctor-explaining-x-ray-scan-results-diagnosis-woman-wearing-face-masks-protection-1.jpg',
     markdownContent: `# Diagnosis & Lab Tests at Mimosa Cottage Hospital
 
 ## Overview
-We offer comprehensive laboratory and diagnostic services with rapid, accurate results to support your healthcare decisions.
+We provide comprehensive laboratory and diagnostic services with timely, accurate results to support your care plan. Our team focuses on quality, safety, and clear communication so you understand every test and result.
 
-![Modern laboratory with diagnostic equipment](https://emoryhospital.co.ke/wp-content/uploads/2024/03/medic-holding-radiography-examination-with-patient-coronavirus-pandemic-doctor-explaining-x-ray-scan-results-diagnosis-woman-wearing-face-masks-protection-1.jpg)
+![Modern laboratory with diagnostic equipment](https://nairobisouthhospital.org/wp-content/uploads/2016/09/lab-1.jpg)
 
 ## Available Tests
 - **Blood Tests**: Complete blood counts, chemistry panels, lipid profiles
@@ -194,6 +206,13 @@ We offer comprehensive laboratory and diagnostic services with rapid, accurate r
 - **Imaging**: X-ray, ultrasound, and advanced diagnostic imaging
 - **Specialized Tests**: Hormone levels, tumor markers, genetic testing
 
+## Core Laboratory Sections
+- **Hematology**: CBCs, anemia workups, clotting studies
+- **Clinical Chemistry**: Liver and kidney function, electrolytes, glucose
+- **Serology & Immunology**: Infection markers and immune response tests
+- **Microbiology**: Cultures, microscopy, and antimicrobial sensitivity
+- **Histopathology**: Tissue processing and reporting for biopsies
+
 ## Quality Assurance
 - ISO-certified laboratory
 - Trained and certified technicians
@@ -201,14 +220,19 @@ We offer comprehensive laboratory and diagnostic services with rapid, accurate r
 - Rigorous quality control measures
 - Rapid turnaround times
 
-## Online Result Access
-Access your test results securely through our patient portal with clear explanations from our medical team.
+## Sample Collection & Patient Comfort
+- Clear, step-by-step instructions before testing
+- Gentle, professional phlebotomy services
+- Dedicated pediatric collection support when needed
+- Privacy and confidentiality during all procedures
+
+## Turnaround Times
+Many routine tests return same day, while specialized tests are scheduled with clear timelines. We keep you informed every step of the way.
 
 ## Test Preparation
 Our staff provides clear instructions for test preparation to ensure accurate results.
 
-## Home Collection Service
-We offer convenient blood collection at your home for select tests.
+![Diagnostic imaging consultation](https://aayush-hospitals.com/wp-content/uploads/2025/04/Diagnostic-Lab-in-Kalyan.jpg)
 
 **Schedule your diagnostic tests** with confidence in Mimosa Cottage Hospital.`,
   },
@@ -217,11 +241,13 @@ We offer convenient blood collection at your home for select tests.
     title: 'Ambulance & Referral',
     slug: 'ambulance-referral',
     summary: 'Professional ambulance services and coordinated referrals to specialized healthcare facilities.',
-    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1768056209/ambulance_example.jpg',
+    featuredImage: 'https://proambri.com/wp-content/uploads/2024/05/Ambulance-On-Street.jpg',
     markdownContent: `# Ambulance & Referral Services at Mimosa Cottage Hospital
 
 ## Overview
-We provide reliable ambulance services and seamless medical referrals to ensure continuity of care.
+We provide reliable ambulance services and seamless medical referrals to ensure continuity of care. Our emergency response teams are trained to stabilize patients quickly and transport them safely to the most appropriate level of care.
+
+![Emergency ambulance ready for dispatch](https://thumbs.dreamstime.com/b/emergency-sign-hospital-11649792.jpg)
 
 ## Ambulance Services
 - **24/7 Availability**: Emergency ambulance dispatch around the clock
@@ -230,12 +256,26 @@ We provide reliable ambulance services and seamless medical referrals to ensure 
 - **GPS Tracking**: Real-time ambulance tracking and updates
 - **Multiple Response Options**: Basic life support, advanced life support, and patient transfer
 
+## Onboard Equipment & Capabilities
+- Oxygen delivery and airway support
+- Cardiac monitoring and defibrillation
+- Trauma immobilization and bleeding control
+- Intravenous access and emergency medications
+- Neonatal and pediatric stabilization support when needed
+
+![Paramedics providing emergency care](https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?auto=format&fit=crop&w=1600&q=80)
+
 ## When to Call Our Ambulance
 - Chest pain or difficulty breathing
 - Severe injuries from accidents
 - Sudden loss of consciousness
 - Uncontrolled bleeding
 - Any medical emergency requiring immediate transport
+
+## Inter-Facility Transfers
+- Safe transfer for patients needing specialized treatment
+- Handover with full medical documentation
+- Coordination with receiving facilities and specialists
 
 ## Referral Coordination
 - Partnerships with specialized hospitals and clinics
@@ -244,59 +284,29 @@ We provide reliable ambulance services and seamless medical referrals to ensure 
 - Insurance authorization assistance
 - Follow-up care coordination
 
+## What to Expect When You Call
+- Rapid triage and dispatch based on urgency
+- Clear instructions for bystanders and family
+- Real-time updates on ambulance location
+- Compassionate care throughout transport
+
 ## How to Request
-Call our emergency number or use our mobile app to request ambulance services.
+Call our emergency number or use our website to request ambulance services.
 
 **Trust us to get you to care quickly and safely.**`,
-  },
-  {
-    id: '6',
-    title: 'Emergency Care',
-    slug: 'emergency-care',
-    summary: 'Round-the-clock emergency department with trauma care, resuscitation, and acute medical management.',
-    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1768056209/emergency-care_example.jpg',
-    markdownContent: `# Emergency Care at Mimosa Cottage Hospital
-
-## Overview
-Our Emergency Department operates 24/7 to provide immediate care for acute medical and surgical emergencies.
-
-## Emergency Services
-- **Trauma Care**: Treatment of injuries from accidents and falls
-- **Cardiac Emergencies**: Chest pain evaluation and acute cardiac care
-- **Respiratory Emergencies**: Breathing difficulty and airway management
-- **Neurological Emergencies**: Stroke and head injury care
-- **Acute Abdominal Emergencies**: Assessment and stabilization
-- **Orthopedic Emergencies**: Fracture and joint injury care
-
-## Our Capabilities
-- Fully equipped resuscitation bays
-- Continuous cardiac monitoring
-- Advanced airway management
-- Rapid imaging services (X-ray, ultrasound, CT)
-- On-site surgical capability
-- ICU admission for critical cases
-
-## Triage System
-We use a color-coded triage system to prioritize patients based on severity.
-
-## Waiting Times
-Our efficient system minimizes waiting times for urgent cases.
-
-## Insurance & Payment
-We work with most insurance providers and offer flexible payment options.
-
-**In an emergency, call 999 or go to your nearest emergency department.**`,
   },
   {
     id: '7',
     title: 'STIs and HIV/AIDS',
     slug: 'stis-hiv-aids',
     summary: 'Confidential testing, treatment, and management of sexually transmitted infections and HIV/AIDS.',
-    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1768056209/sti-hiv_example.jpg',
+    featuredImage: 'https://familymedicineaustin.com/wp-content/uploads/2022/04/9.jpg',
     markdownContent: `# STIs and HIV/AIDS Services at Mimosa Cottage Hospital
 
 ## Overview
-We provide confidential, judgment-free testing, treatment, and long-term management of STIs and HIV/AIDS.
+We provide confidential, judgment-free testing, treatment, and long-term management of STIs and HIV/AIDS. Our goal is early detection, effective treatment, and ongoing support that protects your health and privacy.
+
+![Confidential sexual health consultation](https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1600&q=80)
 
 ## Services Offered
 - **STI Testing**: Rapid and comprehensive screening for common STIs
@@ -305,6 +315,14 @@ We provide confidential, judgment-free testing, treatment, and long-term managem
 - **Pre-Exposure Prophylaxis (PrEP)**: Prevention for high-risk individuals
 - **Antiretroviral Therapy (ART)**: Evidence-based HIV treatment
 - **Counseling & Support**: Professional counseling and peer support groups
+
+## Treatment & Follow-Up Care
+- Same-day treatment for many STIs when indicated
+- Partner notification support (with your consent)
+- Follow-up testing to confirm clearance
+- Adherence counseling and medication support
+
+![Laboratory testing for HIV and STIs](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80)
 
 ## Common STIs Treated
 - Gonorrhea
@@ -320,6 +338,12 @@ We provide confidential, judgment-free testing, treatment, and long-term managem
 - Mental health support
 - Nutritional counseling
 - Drug adherence support
+
+## Prevention & Education
+- Safer sex education and risk-reduction counseling
+- Condom access and usage guidance
+- PrEP counseling for eligible clients
+- PEP guidance and emergency access
 
 ## Confidentiality
 Complete confidentiality is guaranteed for all patients.

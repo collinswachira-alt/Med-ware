@@ -113,7 +113,7 @@ const HospitalStats = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
             {stats.map((stat, idx) => (
-              <div key={idx} className="text-center text-white transform hover:scale-105 transition-transform">
+              <div key={idx} className="text-center text-white">
                 <div className="w-10 h-10 md:w-12 md:h-12 mx-auto mb-3 opacity-90"> 
                   <img src={stat.icon} alt="" />
                 </div>
