@@ -26,7 +26,7 @@ export const MEDICAL_SERVICES: ServiceItems[] = [
   },
   {
     title: 'S.T.Is and related services',
-    slug: 'stis-related-services',
+    slug: 'stis-hiv-aids',
     excerpt: 'Expert treatment for neurological conditions',
     coverImage: { url: 'https://familymedicineaustin.com/wp-content/uploads/2022/04/9.jpg', alt: 'S.T.Is and related services' },
     featured: false
