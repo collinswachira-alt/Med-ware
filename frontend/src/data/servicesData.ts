@@ -13,14 +13,14 @@ export const services: Service[] = [
     title: 'Maternity Care',
     slug: 'maternity-care',
     summary: 'Comprehensive prenatal, natal, and postnatal care for expecting mothers and newborns.',
-    featuredImage: 'https://maternityandmidwifery.co.uk/wp-content/uploads/2025/09/Lesley-Turner-September-2025.png',
+    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119568/WhatsApp_Image_2026-02-26_at_18.08.00_1_ge5xri.jpg',
     markdownContent: `# Maternity Care at Mimosa Cottage Hospital
 
 ## Overview
 
 We provide world-class maternity services designed to ensure the health and safety of both mother and baby throughout the pregnancy journey.
 
-![Pregnant woman receiving ultrasound examination](https://i.guim.co.uk/img/media/5ffa5bdd1c7845f2d835c221841489ba10a97dea/12_283_5750_3451/master/5750.jpg?width=1900&dpr=1&s=none&crop=none)
+![Infant holding Mom's index finger](https://res.cloudinary.com/dwnhqho80/image/upload/v1772119579/WhatsApp_Image_2026-02-26_at_18.10.36_1_ygh3f5.jpg)
 
 ## Our Services
 - **Prenatal Care**: Regular check-ups, ultrasounds, and screening tests to monitor fetal development
@@ -30,7 +30,7 @@ We provide world-class maternity services designed to ensure the health and safe
 
 ## Facilities
 
-![Modern delivery suite with medical equipment](https://www.medicareexel.net/wp-content/uploads/2023/11/Maternity-and-antenatal-services-992x525.jpg)
+![Mimosa staff gifting new Moms](https://res.cloudinary.com/dwnhqho80/image/upload/v1772119679/WhatsApp_Image_2026-02-26_at_18.11.17_k7howh.jpg)
 
 - State-of-the-art delivery suites
 - Neonatal Intensive Care Unit (NICU)
@@ -53,13 +53,13 @@ Our experienced obstetricians and midwives are dedicated to providing compassion
     title: 'Child Wellness',
     slug: 'child-wellness',
     summary: 'Pediatric care focused on healthy growth, development, and preventive care from infancy through adolescence.',
-    featuredImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMTSztomSflWVBY0WGO8Lrdia3sB-zMCFPwQ&s',
+    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119580/WhatsApp_Image_2026-02-26_at_18.10.37_kjh5bp.jpg',
     markdownContent: `# Child Wellness at Mimosa Cottage Hospital
 
 ## Overview
 We support your child’s health at every stage with preventive care, early screening, and family-centered guidance. Our goal is to help children grow, thrive, and reach their full potential through attentive, compassionate care.
 
-![Happy Children Playing](https://images.pexels.com/photos/4543646/pexels-photo-4543646.jpeg?_gl=1*bcwfme*_ga*MTE3MzkwNDYxOC4xNzcwNDcyODU5*_ga_8JE65Q40S6*czE3NzA0NzI4NTgkbzEkZzEkdDE3NzA0NzI4NjUkajUzJGwwJGgw)
+![Healthy Infant](https://res.cloudinary.com/dwnhqho80/image/upload/v1772119580/WhatsApp_Image_2026-02-26_at_18.10.37_1_xtuvsc.jpg)
 
 ## Well-Child Visits & Preventive Care
 - **Growth Monitoring**: Height, weight, and BMI tracking
@@ -102,7 +102,7 @@ We partner with parents and caregivers, offering practical guidance on:
     title: 'Family Planning',
     slug: 'family-planning',
     summary: 'Confidential family planning services to help you make informed reproductive health decisions.',
-    featuredImage: 'https://media.istockphoto.com/id/1092392644/photo/doctor-consulting-with-young-couple-patients.jpg?s=612x612&w=0&k=20&c=Jg1U-oTQyBOkuQ9rr3DpuUCRFPEmiJEU8ya2wfLjsec=',
+    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119636/WhatsApp_Image_2026-02-26_at_18.10.38_3_bzesj5.jpg',
     markdownContent: `# Family Planning at Mimosa Cottage Hospital
 
 ## Overview
@@ -149,7 +149,7 @@ Our team provides thorough counseling on all available contraceptive methods, he
 
 ## Our Compassionate Approach
 
-![Family planning consultation room](https://familymedicineaustin.com/wp-content/uploads/2022/04/9.jpg)
+![Negative pregnancy test](https://familymedicineaustin.com/wp-content/uploads/2022/04/9.jpg)
 
 - Evidence-based recommendations tailored to your unique needs
 - Thorough counseling on all available options with pros and cons
@@ -191,13 +191,13 @@ If you're planning to conceive:
     title: 'Diagnosis & Lab Tests',
     slug: 'diagnosis-lab-tests',
     summary: 'Accurate laboratory testing and diagnostic services using state-of-the-art equipment and technology.',
-    featuredImage: 'https://emoryhospital.co.ke/wp-content/uploads/2024/03/medic-holding-radiography-examination-with-patient-coronavirus-pandemic-doctor-explaining-x-ray-scan-results-diagnosis-woman-wearing-face-masks-protection-1.jpg',
+    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119574/WhatsApp_Image_2026-02-26_at_18.10.29_tpufq6.jpg',
     markdownContent: `# Diagnosis & Lab Tests at Mimosa Cottage Hospital
 
 ## Overview
 We provide comprehensive laboratory and diagnostic services with timely, accurate results to support your care plan. Our team focuses on quality, safety, and clear communication so you understand every test and result.
 
-![Modern laboratory with diagnostic equipment](https://nairobisouthhospital.org/wp-content/uploads/2016/09/lab-1.jpg)
+![Diagnostic imaging consultation](https://aayush-hospitals.com/wp-content/uploads/2025/04/Diagnostic-Lab-in-Kalyan.jpg)
 
 ## Available Tests
 - **Blood Tests**: Complete blood counts, chemistry panels, lipid profiles
@@ -232,7 +232,6 @@ Many routine tests return same day, while specialized tests are scheduled with c
 ## Test Preparation
 Our staff provides clear instructions for test preparation to ensure accurate results.
 
-![Diagnostic imaging consultation](https://aayush-hospitals.com/wp-content/uploads/2025/04/Diagnostic-Lab-in-Kalyan.jpg)
 
 **Schedule your diagnostic tests** with confidence in Mimosa Cottage Hospital.`,
   },
@@ -241,13 +240,13 @@ Our staff provides clear instructions for test preparation to ensure accurate re
     title: 'Ambulance & Referral',
     slug: 'ambulance-referral',
     summary: 'Professional ambulance services and coordinated referrals to specialized healthcare facilities.',
-    featuredImage: 'https://proambri.com/wp-content/uploads/2024/05/Ambulance-On-Street.jpg',
+    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119569/WhatsApp_Image_2026-02-26_at_18.10.23_nyyc7e.jpg',
     markdownContent: `# Ambulance & Referral Services at Mimosa Cottage Hospital
 
 ## Overview
 We provide reliable ambulance services and seamless medical referrals to ensure continuity of care. Our emergency response teams are trained to stabilize patients quickly and transport them safely to the most appropriate level of care.
 
-![Emergency ambulance ready for dispatch](https://thumbs.dreamstime.com/b/emergency-sign-hospital-11649792.jpg)
+![Emergency ambulance ready for dispatch](https://res.cloudinary.com/dwnhqho80/image/upload/v1772201697/20250514_222114.jpg_2_dpihti.jpg)
 
 ## Ambulance Services
 - **24/7 Availability**: Emergency ambulance dispatch around the clock
@@ -262,8 +261,6 @@ We provide reliable ambulance services and seamless medical referrals to ensure 
 - Trauma immobilization and bleeding control
 - Intravenous access and emergency medications
 - Neonatal and pediatric stabilization support when needed
-
-![Paramedics providing emergency care](https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?auto=format&fit=crop&w=1600&q=80)
 
 ## When to Call Our Ambulance
 - Chest pain or difficulty breathing
@@ -300,13 +297,12 @@ Call our emergency number or use our website to request ambulance services.
     title: 'STIs and HIV/AIDS',
     slug: 'stis-hiv-aids',
     summary: 'Confidential testing, treatment, and management of sexually transmitted infections and HIV/AIDS.',
-    featuredImage: 'https://familymedicineaustin.com/wp-content/uploads/2022/04/9.jpg',
+    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119564/8131a353-ad73-46eb-a95c-746b759bd4d5_rlhnzb.png',
     markdownContent: `# STIs and HIV/AIDS Services at Mimosa Cottage Hospital
 
 ## Overview
 We provide confidential, judgment-free testing, treatment, and long-term management of STIs and HIV/AIDS. Our goal is early detection, effective treatment, and ongoing support that protects your health and privacy.
 
-![Confidential sexual health consultation](https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1600&q=80)
 
 ## Services Offered
 - **STI Testing**: Rapid and comprehensive screening for common STIs
@@ -322,7 +318,7 @@ We provide confidential, judgment-free testing, treatment, and long-term managem
 - Follow-up testing to confirm clearance
 - Adherence counseling and medication support
 
-![Laboratory testing for HIV and STIs](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80)
+![Patient's specimen](https://aayush-hospitals.com/wp-content/uploads/2025/04/Diagnostic-Lab-in-Kalyan.jpg)
 
 ## Common STIs Treated
 - Gonorrhea
@@ -358,13 +354,11 @@ We assist with partner notification if you consent.
     title: 'Breast Cancer Screening',
     slug: 'breast-cancer-screening',
     summary: 'Early detection and comprehensive breast health services including screening, imaging, and biopsy.',
-    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1768056209/breast-cancer_example.jpg',
+    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772203682/WhatsApp_Image_2026-02-27_at_17.38.43_yqew7l.jpg',
     markdownContent: `# Breast Cancer Screening at Mimosa Cottage Hospital
 
 ## Overview
 Early detection saves lives. We offer comprehensive breast cancer screening to identify abnormalities at the earliest stages. Our dedicated team combines advanced technology with compassionate care to support your breast health journey.
-
-![Breast cancer awareness and early detection](https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1600&q=80)
 
 ## Screening Methods
 - **Clinical Breast Exam**: Thorough examination by trained healthcare professionals
@@ -377,8 +371,6 @@ Early detection saves lives. We offer comprehensive breast cancer screening to i
 - **Symptom Recognition**: Identify lumps, dimpling, discharge, or skin changes
 - **Risk Factor Assessment**: Family history, age, hormonal factors, lifestyle
 - **Density Classification**: Understanding your breast tissue type and screening needs
-
-![Mammography screening technology](https://images.unsplash.com/photo-1631217314830-6db1a8a8df7a?auto=format&fit=crop&w=1600&q=80)
 
 ## Risk Assessment
 - Family history evaluation
@@ -400,7 +392,7 @@ Early detection saves lives. We offer comprehensive breast cancer screening to i
 - Quick, painless procedures
 - Rapid result turnaround
 
-![Patient consultation with breast health specialist](https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1600&q=80)
+![Health specialist analyzing patient results](https://res.cloudinary.com/dwnhqho80/image/upload/v1772203661/WhatsApp_Image_2026-02-27_at_17.38.42_b1tige.jpg)
 
 ## Screening Guidelines
 - Women 40+: Annual mammography
@@ -448,13 +440,13 @@ If an abnormality is detected, we coordinate immediate specialist consultation a
     title: 'Cervical Cancer Screening',
     slug: 'cervical-cancer-screening',
     summary: 'Preventive cervical cancer screening services including Pap tests, HPV testing, and vaccination.',
-    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1768056209/cervical-cancer_example.jpg',
+    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119565/787ba5ab-bf1b-45fb-a7fe-83d935ab7747_rcwd1h.png',
     markdownContent: `# Cervical Cancer Screening at Mimosa Cottage Hospital
 
 ## Overview
 Cervical cancer is highly preventable through regular screening. We provide comprehensive cervical health services with early detection and prevention programs. Most cervical cancers develop from HPV infection, which is both preventable and treatable when caught early.
 
-![Cervical cancer prevention and screening](https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1600&q=80)
+![Councelling session](https://res.cloudinary.com/dwnhqho80/image/upload/v1772204396/f93606b8-be87-4563-b059-603a6f43269c_apx2n2.png)
 
 ## Screening Services
 - **Pap Test (Cervical Cytology)**: Standard cervical cancer screening using liquid-based technology
@@ -471,7 +463,6 @@ Cervical cancer is highly preventable through regular screening. We provide comp
 - **Catch-Up Vaccination**: Available for women who missed routine vaccination
 - **Post-Treatment**: Vaccination for women with history of abnormalities
 
-![HPV vaccination clinic](https://images.unsplash.com/photo-1631217314830-6db1a8a8df7a?auto=format&fit=crop&w=1600&q=80)
 
 ## Comprehensive Screening Guidelines
 - **Age 21-29 years**: Cytology (Pap test) every 3 years
@@ -497,8 +488,6 @@ Cervical cancer is highly preventable through regular screening. We provide comp
 - **Private, Comfortable Setting**: Dedicated screening rooms
 - **Clear Communication**: Full explanation of procedures and findings
 - **Results Within Days**: Fast turnaround on test results
-
-![Cervical health examination room](https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1600&q=80)
 
 ## Screening Results Explained
 - **Normal (Negative)**: Continue routine screening as recommended
@@ -544,13 +533,13 @@ Cervical cancer is highly preventable through regular screening. We provide comp
     title: 'Immunizations',
     slug: 'immunizations',
     summary: 'Complete immunization services for infants, children, adolescents, and adults with vaccine counseling.',
-    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1768056209/immunizations_example.jpg',
+    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119568/4b650195-2497-443d-a222-10120311e675_pn4szo.png',
     markdownContent: `# Immunizations at Mimosa Cottage Hospital
 
 ## Overview
 Vaccinations are one of the most effective public health measures. We offer comprehensive immunization services for all ages, helping you and your family stay protected against preventable diseases. Our team ensures each vaccination is administered safely with proper counseling and follow-up care.
 
-![Child receiving vaccination](https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1600&q=80)
+![Child after receiving vaccination](https://res.cloudinary.com/dwnhqho80/image/upload/v1772119635/WhatsApp_Image_2026-02-26_at_18.10.38_rccqoz.jpg)
 
 ## Vaccination Programs
 
@@ -709,13 +698,12 @@ Our healthcare providers take time to:
     title: 'General Checkups',
     slug: 'general-checkups',
     summary: 'Comprehensive physical examinations and preventive health screening for all ages.',
-    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1768056209/general-checkups_example.jpg',
+    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772205317/7cc3c96e-b62c-44af-b83e-cdbfe745ba69_w9f091.png',
     markdownContent: `# General Checkups at Mimosa Cottage Hospital
 
 ## Overview
 Regular health checkups are essential for maintaining good health and detecting problems early. At Mimosa Cottage Hospital, our comprehensive general checkup program is designed to identify health risks, prevent chronic diseases, and help you maintain optimal wellness throughout your life. Whether you're a young adult seeking baseline health status or a senior requiring comprehensive health assessment, our experienced physicians provide personalized evaluation and guidance.
 
-![Comprehensive physical health examination](https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1600&q=80)
 
 ## What's Included in a General Checkup
 
@@ -736,6 +724,7 @@ Regular health checkups are essential for maintaining good health and detecting 
 - **Oxygen Saturation**: Blood oxygen levels using pulse oximetry
 
 ### Comprehensive Physical Examination
+![Comprehensive health examination](https://res.cloudinary.com/dwnhqho80/image/upload/v1772205317/7cc3c96e-b62c-44af-b83e-cdbfe745ba69_w9f091.png)
 Our physicians perform a systematic head-to-toe examination including:
 - **Head & Neck**: Eyes, ears, nose, throat, and lymph node examination
 - **Cardiovascular System**: Heart sounds and peripheral pulse assessment
@@ -745,7 +734,6 @@ Our physicians perform a systematic head-to-toe examination including:
 - **Musculoskeletal System**: Joint mobility and muscle strength
 - **Skin Examination**: Moles, lesions, and dermatological changes
 
-![Doctor performing comprehensive physical examination](https://images.unsplash.com/photo-1631217314830-6db1a8a8df7a?auto=format&fit=crop&w=1600&q=80)
 
 ### Organ Systems Review
 - **Cardiovascular**: Heart murmurs, arrhythmias, or circulation concerns
@@ -1010,13 +998,12 @@ Our physicians perform a systematic head-to-toe examination including:
     title: 'In & Out Patient Services',
     slug: 'in-out-patient-services',
     summary: 'Inpatient hospital care and outpatient treatment services with comfortable facilities and expert medical teams.',
-    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1768056209/inpatient_example.jpg',
+    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772205739/Mimosa-Cottage-Hospital-Nairobi-Kenya-AskAnnie-TortoisePathcom-4-1024x578_dzxsct.jpg',
     markdownContent: `# In & Out Patient Services at Mimosa Cottage Hospital
 
 ## Overview
 We provide comprehensive inpatient and outpatient services to meet all your healthcare needs. Whether you need same-day care, specialist consultation, or hospital admission, our multidisciplinary teams deliver safe, coordinated treatment in a comfortable environment.
 
-![Modern hospital inpatient ward](https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1600&q=80)
 
 ## Inpatient Services
 
@@ -1046,7 +1033,6 @@ We provide comprehensive inpatient and outpatient services to meet all your heal
 - Nutritious meals and dietary plans
 - Pain management and comfort protocols
 
-![Nurse supporting inpatient recovery](https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=1600&q=80)
 
 ## Outpatient Services
 
@@ -1070,7 +1056,7 @@ We provide comprehensive inpatient and outpatient services to meet all your heal
 - Behavioral health screening and support
 - Referral pathways for specialized psychiatric care
 
-![Outpatient clinic consultation](https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=1600&q=80)
+![Inpatient accomodation facility](https://res.cloudinary.com/dwnhqho80/image/upload/v1772205757/jjj_vrocvt.jpg)
 
 ## Outpatient Day Procedures
 - Safe, scheduled procedures with same-day discharge
@@ -1110,13 +1096,12 @@ We provide comprehensive inpatient and outpatient services to meet all your heal
     title: 'Blood Transfusion',
     slug: 'blood-transfusion',
     summary: 'Blood bank services including donation, testing, storage, and transfusion of safe, screened blood products.',
-    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1768056209/blood-transfusion_example.jpg',
+    featuredImage: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772206289/572a90c0-4ced-4332-be79-ab7bd03f8970_eujnbh.png',
     markdownContent: `# Blood Transfusion Services at Mimosa Cottage Hospital
 
 ## Overview
 Our blood bank ensures a safe and reliable blood supply for patients in need. We provide comprehensive donation, screening, storage, and transfusion services using strict quality standards to protect donors and recipients.
 
-![Safe blood donation and transfusion services](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80)
 
 ## Blood Donation Services
 
@@ -1142,7 +1127,6 @@ Our blood bank ensures a safe and reliable blood supply for patients in need. We
 - Refreshments and recovery monitoring post-donation
 - Donor education on recovery and next donation timing
 
-![Blood donation in a clinical setting](https://images.unsplash.com/photo-1581595219315-7b53a6b7e5d6?auto=format&fit=crop&w=1600&q=80)
 
 ## Blood Testing & Safety Screening
 
@@ -1161,6 +1145,7 @@ Our blood bank ensures a safe and reliable blood supply for patients in need. We
 - Safe storage and cold chain management
 
 ## Blood Types & Inventory
+![Blood donation ](https://res.cloudinary.com/dwnhqho80/image/upload/v1772206295/071c62dc-4cdd-47a9-9510-b4e7df547c91_y6egj9.png)
 We maintain supplies of all major blood types:
 - O+, O-, A+, A-, B+, B-, AB+, AB-
 - Emergency priority for O-negative (universal donor)
@@ -1192,7 +1177,6 @@ We maintain supplies of all major blood types:
 - Immediate response to any adverse reactions
 - Post-transfusion evaluation and documentation
 
-![Clinical monitoring during blood transfusion](https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=1600&q=80)
 
 ## Patient Safety & Risk Management
 - Compatibility testing for every transfusion

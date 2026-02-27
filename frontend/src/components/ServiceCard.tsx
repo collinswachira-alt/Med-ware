@@ -14,14 +14,14 @@ export const MEDICAL_SERVICES: ServiceItems[] = [
     title: 'Maternal & Child Health',
     slug: 'maternity-care',
     excerpt: 'Complete heart care with advanced diagnostics',
-    coverImage: { url: 'https://maternityandmidwifery.co.uk/wp-content/uploads/2025/09/Lesley-Turner-September-2025.png', alt: 'Maternal & Child Health' },
+    coverImage: { url: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119635/WhatsApp_Image_2026-02-26_at_18.10.38_2_bccht1.jpg', alt: 'Maternal & Child Health' },
     featured: false
   },
   {
     title: 'Family Planning',
     slug: 'family-planning',
     excerpt: 'Specialized care for infants and children',
-    coverImage: { url: 'https://media.istockphoto.com/id/1092392644/photo/doctor-consulting-with-young-couple-patients.jpg?s=612x612&w=0&k=20&c=Jg1U-oTQyBOkuQ9rr3DpuUCRFPEmiJEU8ya2wfLjsec=', alt: 'Family Planning' },
+    coverImage: { url: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119636/WhatsApp_Image_2026-02-26_at_18.10.38_3_bzesj5.jpg', alt: 'Family Planning' },
     featured: false
   },
   {
@@ -40,16 +40,16 @@ export const MEDICAL_SERVICES: ServiceItems[] = [
   },
   {
     title: 'Diagnosis & Laboratory Tests',
-    slug: 'diagnosis-laboratory-tests',
+    slug: 'diagnosis-lab-tests',
     excerpt: 'Comprehensive skin health solutions',
-    coverImage: { url: 'https://mariestopes.or.ke/wp-content/uploads/sites/10/2025/03/shutterstock_2451951657-scaled.jpg.webp', alt: 'Diagnosis & Laboratory Tests' },
+    coverImage: { url: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119574/WhatsApp_Image_2026-02-26_at_18.10.29_tpufq6.jpg', alt: 'Diagnosis & Laboratory Tests' },
     featured: false
   },
   {
-    title: 'Emergency Care',
-    slug: 'emergency-care',
+    title: 'Emergency & Referral',
+    slug: 'ambulance-referral',
     excerpt: '24/7 emergency medical services',
-    coverImage: { url: 'https://static.vecteezy.com/system/resources/previews/002/723/677/large_2x/emergency-doctor-checking-patient-to-pick-hospital-illustration-emergency-ambulance-service-concept-free-vector.jpg', alt: 'Emergency Care' },
+    coverImage: { url: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119569/WhatsApp_Image_2026-02-26_at_18.10.23_nyyc7e.jpg', alt: 'Emergency Care' },
     featured: false
   }
 ];
