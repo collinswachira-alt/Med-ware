@@ -35,7 +35,7 @@ export const MEDICAL_SERVICES: ServiceItems[] = [
     title: 'Breast Cancer Screening',
     slug: 'breast-cancer-screening',
     excerpt: 'Bone and joint care with modern techniques',
-    coverImage: { url: 'https://emoryhospital.co.ke/wp-content/uploads/2024/03/medic-holding-radiography-examination-with-patient-coronavirus-pandemic-doctor-explaining-x-ray-scan-results-diagnosis-woman-wearing-face-masks-protection-1.jpg', alt: 'Breast Cancer Screening' },
+    coverImage: { url: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1772203682/WhatsApp_Image_2026-02-27_at_17.38.43_yqew7l.jpg', alt: 'Breast Cancer Screening' },
     featured: false
   },
   {
