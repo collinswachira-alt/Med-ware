@@ -1,4 +1,4 @@
- import { Phone, MapPin, Mail, Cross } from 'lucide-react';
+ import { Phone, MapPin, Mail } from 'lucide-react';
 
  
  const LandingFooter = () => {
@@ -10,10 +10,10 @@
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 rounded-lg flex items-center justify-center">
-                  <Cross className="w-6 h-6 text-white" fill="white" />
-                </div>
-                <span className="text-xl font-bold">MedWare Plus</span>
+              <div className="w-20 h-20 flex items-center justify-center">
+                <img src="https://res.cloudinary.com/dwnhqho80/image/upload/v1772804953/images__1_-removebg-preview_gb8sqd.png" alt="Mimosa logo" className="w-full h-full object-contain" />
+              </div>
+                <span className="text-xl font-bold">Mimosa Cottage</span>
               </div>
               <p className="text-gray-400 mb-4">
                 Providing quality Medi-Wareservices with compassion and excellence.
@@ -51,11 +51,11 @@
                 </li>
                 <li className="flex items-center gap-2">
                   <Phone className="w-5 h-5 shrink-0" />
-                  <span>+254 700 000 000</span>
+                  <span>+254 724 948894</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="w-5 h-5 shrink-0" />
-                  <span>info@Mimosaplus.com</span>
+                  <span>mimosacottagehospital@gmail.com</span>
                 </li>
               </ul>
             </div>

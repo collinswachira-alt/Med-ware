@@ -30,7 +30,7 @@ const HospitalLandingPage = () => {
               <Heart className="w-10 h-10 text-blue-600 animate-pulse" />
             </div>
           </div>
-          <h2 className="text-2xl font-bold text-white mb-2">Medi-WarePlus</h2>
+          <h2 className="text-2xl font-bold text-white mb-2">Mimosa Cottage</h2>
           <p className="text-white/80 text-sm">Loading your health companion...</p>
         </div>
       </div>
