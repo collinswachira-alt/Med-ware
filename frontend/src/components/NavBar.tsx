@@ -32,11 +32,10 @@
 
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-8">
-              <a href="home" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Home</a>
+              <a href="/" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Home</a>
               <a href="services" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Services</a>
-              <a href="doctors" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Doctors</a>
-              <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">About</a>
-              <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Contact</a>
+              <a href="/staff" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Staff</a>
+              <a href="/about-us" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">About</a>
               {/* <button className="bg-linear-to-r from-blue-600 to-sky-500 text-white px-6 py-2.5 rounded-lg hover:shadow-lg transform hover:-translate-y-0.5 transition-all font-medium">
                 Sign In
               </button> */}
@@ -56,9 +55,8 @@
             <div className="md:hidden pb-4 space-y-3 animate-in slide-in-from-top">
               <a href="/" className="block py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium">Home</a>
               <a href="services" className="block py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium">Services</a>
-              <a href="doctors" className="block py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium">Doctors</a>
-              <a href="about" className="block py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium">About</a>
-              <a href="contact" className="block py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium">Contact</a>
+              <a href="/staff" className="block py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium">Staff</a>
+              <a href="/about-us" className="block py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium">About</a>
               {/* <button className="w-full bg-linear-to-r from-blue-600 to-sky-500 text-white px-6 py-3 rounded-lg hover:shadow-lg transition-all font-medium">
                 Sign In
               </button> */}

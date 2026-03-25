@@ -8,6 +8,7 @@ import ExpertsTeam from './ExpertsTeam';
 import LandingFooter from './LandingFooter';
 import FAQ from './FAQs';
 import { ServiceCard, MEDICAL_SERVICES } from './ServiceCard';
+import Partners from './PartnersComponent';
 
 const HospitalLandingPage = () => {
   const navigate = useNavigate();
@@ -80,6 +81,7 @@ const HospitalLandingPage = () => {
       </section>
       
       <ExpertsTeam />
+      <Partners />
       <FAQ />
       <LandingFooter />
 

@@ -1,35 +1,18 @@
 import { useEffect, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import FloatingMedicalBackground from './FloatingItems';
-import TypewriterGradient from './TypeScript';
 import ProffesionalSVG from '../assets/proffesional.svg';
 import AllTimeSVG from '../assets/247.svg';
 import PregnantSVG from '../assets/pregnantmom.svg';
 
 const HeroComponent = () => {
-  const services = [
-    'Maternity Care',
-    'Child Wellness',
-    'Family Planning',
-    'Diagnosis & Lab Tests',
-    'Ambulance & Referral',
-    'Emergency Care',
-    'STIs and HIV/AIDS',
-    'Breast Cancer Screening',
-    'Cervical Cancer Screening',
-    'Immunizations',
-    'General Checkups',
-    'In&Out Patient Services',
-    'Blood Transfusion',
-  ];
-
   const slides = [
     {
       title: 'Compassionate Maternal & Family Care',
       description:
         'From antenatal support to postnatal follow-up, our team is ready to care for every stage of your family journey.',
       image:
-        'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119579/WhatsApp_Image_2026-02-26_at_18.10.34_vobpyi.jpg',
+        'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119579/WhatsApp_Image_2026-02-26_at_18.10.36_1_ygh3f5.jpg',
       cta: 'Book Appointment',
     },
     {
@@ -37,7 +20,7 @@ const HeroComponent = () => {
       description:
         'Get quick lab turnaround, emergency response, and specialist referrals with trusted clinical standards.',
       image:
-        'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1600&q=80',
+        'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119569/WhatsApp_Image_2026-02-26_at_18.10.23_nyyc7e.jpg',
       cta: 'Get Emergency Help',
     },
     {
@@ -45,12 +28,21 @@ const HeroComponent = () => {
       description:
         'Stay ahead with routine screenings, immunizations, and wellness programs tailored to your health goals.',
       image:
-        'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119569/WhatsApp_Image_2026-02-26_at_18.10.23_nyyc7e.jpg',
+        'https://res.cloudinary.com/dwnhqho80/image/upload/v1773422945/FB_IMG_1767830742744.jpg_1_kcawdr.jpg',
       cta: 'Explore Services',
     },
+    {
+      title: 'Quality Team, Trusted Care',
+      description:
+        'Our skilled professionals are dedicated to providing compassionate, personalized care for you and your family.',
+      image:
+        'https://res.cloudinary.com/dwnhqho80/image/upload/v1772119579/WhatsApp_Image_2026-02-26_at_18.10.34_vobpyi.jpg',
+      cta: 'Meet Our Team',
+    }
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [showStatsCards, setShowStatsCards] = useState(false);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -59,6 +51,11 @@ const HeroComponent = () => {
 
     return () => clearInterval(timer);
   }, [slides.length]);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowStatsCards(true), 180);
+    return () => clearTimeout(timer);
+  }, []);
 
   const handleNext = () => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
@@ -101,29 +98,7 @@ const HeroComponent = () => {
               <img src={slide.image} alt={slide.title} className="h-full w-full object-cover" />
               <div className="absolute inset-0 bg-linear-to-r from-blue-950/75 via-blue-900/45 to-sky-900/30" />
 
-              <div className="relative z-10 h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
-                <div className="max-w-2xl text-white space-y-5">
-                  <span className="inline-flex rounded-full bg-blue-500/20 border border-blue-200/40 px-4 py-1 text-sm font-medium">
-                    Trusted for
-                    <span className="ml-2 text-sky-200">
-                      <TypewriterGradient
-                        texts={services}
-                        speed={200}
-                        delayBetweenTexts={200}
-                        loop={true}
-                      />
-                    </span>
-                  </span>
-                  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                    {slide.title}
-                  </h1>
-                  <p className="text-base sm:text-lg text-blue-50/95">{slide.description}</p>
-                  <button className="bg-linear-to-r from-blue-600 to-sky-500 text-white px-7 py-3.5 rounded-lg hover:shadow-xl hover:-translate-y-0.5 transition-all font-medium text-base flex items-center gap-2">
-                    {slide.cta} <ChevronRight className="w-5 h-5" />
-                  </button>
-                </div>
               </div>
-            </div>
           ))}
 
           <button
@@ -156,26 +131,36 @@ const HeroComponent = () => {
         </div>
 
         <div className="relative -mt-14 z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-5">
             {statsCards.map((card, index) => (
               <div
                 key={card.title}
-                className="rounded-xl p-6 text-white shadow-lg bg-linear-to-r from-blue-700 to-sky-600"
+                className={`group relative overflow-hidden rounded-2xl p-6 text-white shadow-lg ring-1 ring-white/20 bg-linear-to-br from-blue-700 via-blue-600 to-sky-500 hover:shadow-2xl hover:-translate-y-1.5 hover:scale-[1.01] transition-all duration-500 ${
+                  showStatsCards ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+                }`}
+                style={{ transitionDelay: `${index * 120}ms` }}
               >
-                <div className="flex items-center gap-2 mb-3">
-                  <div className="w-15 h-15 bg-amber-50 flex items-center justify-center rounded-md">
+                <div className="pointer-events-none absolute -right-10 -top-10 w-36 h-36 rounded-full bg-white/15 blur-2xl group-hover:bg-white/25 transition-colors duration-500" />
+                <div className="pointer-events-none absolute -left-12 -bottom-12 w-36 h-36 rounded-full bg-sky-300/20 blur-2xl group-hover:bg-sky-200/30 transition-colors duration-500" />
+
+                <div className="relative flex items-center gap-3 mb-3">
+                  <div className="w-15 h-15 bg-amber-50/95 group-hover:bg-white flex items-center justify-center rounded-lg shadow-sm transition-colors duration-300">
                     {index === 0 ? (
-                      <img src={AllTimeSVG} alt="24/7" className="w-14 h-14" />
+                      <img src={AllTimeSVG} alt="24/7" className="w-14 h-14 transition-transform duration-500 group-hover:-rotate-3 group-hover:scale-110" />
                     ) : index === 1 ? (
-                      <img src={ProffesionalSVG} alt="Experts" className="w-14 h-14" />
+                      <img src={ProffesionalSVG} alt="Experts" className="w-14 h-14 transition-transform duration-500 group-hover:rotate-3 group-hover:scale-110" />
                     ) : (
-                      <img src={PregnantSVG} alt="Experts" className="w-14 h-14" />
+                      <img src={PregnantSVG} alt="Maternal care" className="w-14 h-14 transition-transform duration-500 group-hover:-rotate-2 group-hover:scale-110" />
                     )}
                   </div>
-                  <h3 className="font-semibold text-xl">{card.title}</h3>
+                  <h3 className="font-semibold text-xl leading-tight">{card.title}</h3>
                 </div>
-                <p className="text-sm text-blue-100 mb-4">{card.detail}</p>
-                <button onClick={() => window.location.href = `/services${card.action}`} className="text-sm font-semibold tracking-wide inline-flex items-center gap-1 text-white hover:text-sky-100 ">
+
+                <p className="relative text-sm text-blue-100/95 mb-4 leading-relaxed">{card.detail}</p>
+                <button
+                  onClick={() => window.location.href = `/services${card.action}`}
+                  className="relative text-sm font-semibold tracking-wide inline-flex items-center gap-1 text-white hover:text-sky-100"
+                >
                   Learn more <ChevronRight className="w-4 h-4" />
                 </button>
               </div>

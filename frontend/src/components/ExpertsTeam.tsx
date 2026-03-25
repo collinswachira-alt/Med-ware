@@ -53,7 +53,7 @@ export const ExpertsTeam = () => {
       id: 3,
       name: "Dr. Sarah Martinez",
       role: "Neurology",
-      bio: "Experienced neurologist specializing in brain and nervous system disorders.",
+      bio: "Experienced neurologist specializing in  nervous system disorders.",
       image: 'https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=300&h=400&fit=crop',
       social: {
         email: 'emily@lupp.live',
@@ -78,7 +78,7 @@ export const ExpertsTeam = () => {
       id: 5,
       name: 'David Kiruga',
       role: 'Developer',
-      bio: 'Extensive experience in building scalable web applications and services.',
+      bio: 'Extensive experience in building scalable web applications.',
       image: 'https://res.cloudinary.com/dwnhqho80/image/upload/v1768054621/WhatsApp_Image_2026-01-10_at_17.03.23_tozikb.jpg',
       social: {
         email: 'kirugadavid9@gmail.com',
@@ -91,7 +91,7 @@ export const ExpertsTeam = () => {
       id: 6,
       name: 'Dr. Amanda Chen',
       role: 'Dermatology',
-      bio: 'Expert in skin health and cosmetic dermatology with 10+ years experience.',
+      bio: 'Expert in skin health and cosmetic dermatology.',
       image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=400&fit=crop',
       social: {
         email: 'amanda@lupp.live',

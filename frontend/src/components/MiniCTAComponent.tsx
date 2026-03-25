@@ -15,13 +15,13 @@ export const MiniCTAComponent: React.FC = () => {
       <p className="text-blue-50 mb-4 text-sm">
         Get quality care at Mimosa Cottage Hospital. Schedule your appointment today.
       </p>
-      <button
+      {/* <button
         onClick={handleSignUp}
         className="w-full bg-white text-blue-600 hover:bg-blue-50 font-semibold py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2"
       >
         Sign Up
         <ArrowRight className="w-4 h-4" />
-      </button>
+      </button> */}
     </div>
   );
 };

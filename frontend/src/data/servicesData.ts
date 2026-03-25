@@ -570,7 +570,7 @@ Vaccinations are one of the most effective public health measures. We offer comp
 - **Rabies**: For high-risk travelers
 - **Pre-Travel Consultation**: Personalized recommendations based on destination
 
-![Vaccination clinic with healthcare provider](https://images.unsplash.com/photo-1631217314830-6db1a8a8df7a?auto=format&fit=crop&w=1600&q=80)
+![Vaccination clinic with healthcare provider](https://res.cloudinary.com/dwnhqho80/image/upload/v1772119635/WhatsApp_Image_2026-02-26_at_18.10.38_rccqoz.jpg)
 
 ### Occupational Vaccines
 - **Healthcare Workers**: Hepatitis B, Influenza, Varicella, MMR

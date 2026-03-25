@@ -23,22 +23,20 @@
             <div>
               <h3 className="text-lg font-bold mb-4">Quick Links</h3>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="home" className="hover:text-white transition-colors">Home</a></li>
-                <li><a href="terms" className="hover:text-white transition-colors">Terms</a></li>
-                <li><a href="privacy" className="hover:text-white transition-colors">Privacy</a></li>
-                <li><a href="services" className="hover:text-white transition-colors">Services</a></li>
-                <li><a href="careers" className="hover:text-white transition-colors">Careers</a></li>
-                <li><a href="about" className="hover:text-white transition-colors">About Us</a></li>
+                <li><a href="/" className="hover:text-white transition-colors">Home</a></li>
+                <li><a href="/services" className="hover:text-white transition-colors">Services</a></li>
+                <li><a href="/staff" className="hover:text-white transition-colors">Staff</a></li>
+                <li><a href="/about-us" className="hover:text-white transition-colors">About Us</a></li>
               </ul>
             </div>
 
             <div>
               <h3 className="text-lg font-bold mb-4">Services</h3>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Cardiology</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Pediatrics</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Neurology</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Emergency</a></li>
+                <li><a href="/services/maternity-care" className="hover:text-white transition-colors">Maternal</a></li>
+                <li><a href="/services/stis-hiv-aids" className="hover:text-white transition-colors">S.T.Is</a></li>
+                <li><a href="/services/immunizations" className="hover:text-white transition-colors">Immunizations</a></li>
+                <li><a href="/services/ambulance-referral" className="hover:text-white transition-colors">Emergency</a></li>
               </ul>
             </div>
 
