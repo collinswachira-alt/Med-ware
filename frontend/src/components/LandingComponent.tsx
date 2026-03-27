@@ -79,9 +79,9 @@ const HospitalLandingPage = () => {
           </div>
         </div>
       </section>
+      <Partners />
       
       <ExpertsTeam />
-      <Partners />
       <FAQ />
       <LandingFooter />
 

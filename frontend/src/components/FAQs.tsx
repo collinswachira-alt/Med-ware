@@ -8,7 +8,7 @@ interface FAQItem {
 
 interface FAQCategory {
   services: FAQItem[];
-  account: FAQItem[];
+  // account: FAQItem[];
 }
 
 type CategoryKey = keyof FAQCategory;
@@ -24,12 +24,12 @@ export const FAQ = () => {
       icon: HeartPulse,
       color: 'from-cyan-500 to-blue-500'
     },
-    {
-      id: 'account',
-      label: "Account",
-      icon: User,
-      color: 'from-cyan-500 to-blue-500'
-    }
+    // {
+    //   id: 'account',
+    //   label: "Account",
+    //   icon: User,
+    //   color: 'from-cyan-500 to-blue-500'
+    // }
   ];
 
   const faqs = {
@@ -75,51 +75,52 @@ export const FAQ = () => {
         answer: "Absolutely, we provide ambulance and transport services to ensure timely medical assistance and patient transfers when needed.",
       }
     ],
-    account: [
-      {
-        question: "Why should I create an account?",
-        answer: "An Account provides resources to help you manage and track various relations eg. Appointments.",
-      },
-      {
-        question: "How can I create an account?",
-        answer: "You can create an account by visiting our website and clicking on the 'Sign Up' button.",
-      },
-      {
-        question: "What should I do if I forget my password?",
-        answer: "You can reset your password by clicking on the 'Forgot Password' link on the login page.",
-      },
-      {
-        question: "How long does it take for my account to be activated?",
-        answer: "Your account is typically activated immediately after succesful registration.",
-      },
-      {
-        question: "What information is required to create an account?",
-        answer: "You will need to provide your full name, email address, phone number, and a secure password.",
-      },
-      {
-        question: "After creating an account will I be ablec to view my medical appointments?",
-        answer: "Yes, once you've created an account, you can Log In and view your medical appointments.",
-      },
-      {
-        question: "Will i be able to be notified of upcoming appointments?",
-        answer: "Yes, you will be notified of upcoming appointments via email or SMS provided you have an account and you allow notifications.",
-      },
-      {
-        question: "What should i do if i didn't receive an expected notification?",
-        answer: "Please check your spam or junk folder in your email. If you still can't find the notification, contact our support team for assistance.",
-      },
-      {
-        question: "How is my personal information protected?",
-        answer: "We use industry-standard security measures to protect your personal information. This includes encryption, secure servers, and access controls to prevent unauthorized access.",
-      },
-      {
-        question: "What should i do if i am not able to create an account?",
-        answer: "You can use our bot which is available on our website to guide you through the account creation process or contact our support team for assistance.",
-      },
-    ]
+    // account: [
+    //   {
+    //     question: "Why should I create an account?",
+    //     answer: "An Account provides resources to help you manage and track various relations eg. Appointments.",
+    //   },
+    //   {
+    //     question: "How can I create an account?",
+    //     answer: "You can create an account by visiting our website and clicking on the 'Sign Up' button.",
+    //   },
+    //   {
+    //     question: "What should I do if I forget my password?",
+    //     answer: "You can reset your password by clicking on the 'Forgot Password' link on the login page.",
+    //   },
+    //   {
+    //     question: "How long does it take for my account to be activated?",
+    //     answer: "Your account is typically activated immediately after succesful registration.",
+    //   },
+    //   {
+    //     question: "What information is required to create an account?",
+    //     answer: "You will need to provide your full name, email address, phone number, and a secure password.",
+    //   },
+    //   {
+    //     question: "After creating an account will I be ablec to view my medical appointments?",
+    //     answer: "Yes, once you've created an account, you can Log In and view your medical appointments.",
+    //   },
+    //   {
+    //     question: "Will i be able to be notified of upcoming appointments?",
+    //     answer: "Yes, you will be notified of upcoming appointments via email or SMS provided you have an account and you allow notifications.",
+    //   },
+    //   {
+    //     question: "What should i do if i didn't receive an expected notification?",
+    //     answer: "Please check your spam or junk folder in your email. If you still can't find the notification, contact our support team for assistance.",
+    //   },
+    //   {
+    //     question: "How is my personal information protected?",
+    //     answer: "We use industry-standard security measures to protect your personal information. This includes encryption, secure servers, and access controls to prevent unauthorized access.",
+    //   },
+    //   {
+    //     question: "What should i do if i am not able to create an account?",
+    //     answer: "You can use our bot which is available on our website to guide you through the account creation process or contact our support team for assistance.",
+    //   },
+    // ]
   };
 
-  const currentFaqs = faqs[activeCategory];
+  // const currentFaqs = faqs[activeCategory];
+  const currentFaqs = faqs["services"];
   const activeTab = categories.find(cat => cat.id === activeCategory);
 
   return (

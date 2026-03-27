@@ -45,7 +45,9 @@
               <ul className="space-y-3 text-gray-400">
                 <li className="flex items-start gap-2">
                   <MapPin className="w-5 h-5 shrink-0 mt-0.5" />
-                  <span>123 Medical Center Drive, Nairobi, Kenya</span>
+                  <a href="https://maps.google.com/?q=Thome,+Marurui+Nairobi,+Kenya" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  <span>Thome, Marurui Nairobi, Kenya</span>
+                  </a>
                 </li>
                 <li className="flex items-center gap-2">
                   <Phone className="w-5 h-5 shrink-0" />

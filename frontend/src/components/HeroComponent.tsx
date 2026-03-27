@@ -135,7 +135,7 @@ const HeroComponent = () => {
             {statsCards.map((card, index) => (
               <div
                 key={card.title}
-                className={`group relative overflow-hidden rounded-2xl p-6 text-white shadow-lg ring-1 ring-white/20 bg-linear-to-br from-blue-700 via-blue-600 to-sky-500 hover:shadow-2xl hover:-translate-y-1.5 hover:scale-[1.01] transition-all duration-500 ${
+                className={`group relative overflow-hidden rounded-2xl p-6 text-white shadow-lg ring-1 ring-white/20 bg-linear-to-br from-blue-700 via-blue-600 to-sky-500 hover:-translate-y-1.5 hover:scale-[1.01] transition-all duration-500 ${
                   showStatsCards ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                 }`}
                 style={{ transitionDelay: `${index * 120}ms` }}
@@ -144,7 +144,7 @@ const HeroComponent = () => {
                 <div className="pointer-events-none absolute -left-12 -bottom-12 w-36 h-36 rounded-full bg-sky-300/20 blur-2xl group-hover:bg-sky-200/30 transition-colors duration-500" />
 
                 <div className="relative flex items-center gap-3 mb-3">
-                  <div className="w-15 h-15 bg-amber-50/95 group-hover:bg-white flex items-center justify-center rounded-lg shadow-sm transition-colors duration-300">
+                  <div className="w-15 h-15 bg-amber-50/95 group-hover:bg-white flex items-center justify-center rounded-lg transition-colors duration-300">
                     {index === 0 ? (
                       <img src={AllTimeSVG} alt="24/7" className="w-14 h-14 transition-transform duration-500 group-hover:-rotate-3 group-hover:scale-110" />
                     ) : index === 1 ? (
