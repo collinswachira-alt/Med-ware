@@ -1,13 +1,7 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
 
 export const MiniCTAComponent: React.FC = () => {
-  const navigate = useNavigate();
 
-  const handleSignUp = () => {
-    navigate('/auth/signup');
-  };
 
   return (
     <div className="bg-linear-to-br from-blue-600 to-sky-500 p-6 rounded-lg text-white">

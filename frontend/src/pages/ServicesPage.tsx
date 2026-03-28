@@ -6,6 +6,7 @@ import NavBar from '../components/NavBar';
 import LandingFooter from '../components/LandingFooter';
 import FloatingMedicalBackground from '../components/FloatingItems';
 import { Breadcrumb } from '../components/Breadcrumb';
+import FloatingChatWidget from '../components/ChatSupport';
 
 const ITEMS_PER_PAGE = 9;
 
@@ -79,6 +80,7 @@ export const ServicesPage: React.FC = () => {
     <div className="min-h-screen bg-white">
       <NavBar />
       <FloatingMedicalBackground />
+      <FloatingChatWidget />
 
       <div className="max-w-8xl mt-25 mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         {/* Page Header */}

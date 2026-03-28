@@ -10,6 +10,7 @@ import { MiniCTAComponent } from '../components/MiniCTAComponent';
 import NavBar from '../components/NavBar';
 import LandingFooter from '../components/LandingFooter';
 import FloatingMedicalBackground from '../components/FloatingItems';
+import FloatingChatWidget from '../components/ChatSupport';
 
 export const ServicePage: React.FC = () => {
   const { serviceSlug = '' } = useParams<{ serviceSlug: string }>();
@@ -60,6 +61,7 @@ export const ServicePage: React.FC = () => {
     <div className="min-h-screen bg-white">
       <NavBar />
       <FloatingMedicalBackground />
+      <FloatingChatWidget />
 
       <div className="max-w-7xl mt-10 mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         {/* Back Button */}

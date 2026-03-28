@@ -1,41 +1,9 @@
-import React, { useEffect, useRef, useState } from 'react';
-import {
-  AcademicCapIcon,
-  HeartIcon,
-  ShieldCheckIcon,
-  UsersIcon,
-} from '@heroicons/react/24/outline';
+import React from 'react';
 import FloatingMedicalBackground from './FloatingItems';
 
 const AboutUs: React.FC = () => {
-  const coreValues = [
-    { title: 'Compassion', icon: HeartIcon },
-    { title: 'Professionalism', icon: ShieldCheckIcon },
-    { title: 'Affordability', icon: AcademicCapIcon },
-    { title: 'Accessibility', icon: UsersIcon },
-  ];
 
-  const coreValuesRef = useRef<HTMLElement | null>(null);
-  const [coreValuesVisible, setCoreValuesVisible] = useState(false);
 
-  useEffect(() => {
-    const target = coreValuesRef.current;
-    if (!target) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setCoreValuesVisible(true);
-          observer.unobserve(entry.target);
-        }
-      },
-      { threshold: 0.2 }
-    );
-
-    observer.observe(target);
-
-    return () => observer.disconnect();
-  }, []);
 
   return (
     <div className="font-sans text-slate-800 bg-white">

@@ -15,7 +15,9 @@ export const FloatingChatWidget = () => {
       className="fixed bottom-6 right-6 z-40 bg-[#25D366] hover:bg-[#20BA5A] text-white p-4 rounded-full shadow-lg shadow-green-500/30 hover:shadow-green-500/50 transition-all duration-300 flex items-center justify-center group hover:-translate-y-1"
       aria-label="Open WhatsApp chat"
     >
-      <FaWhatsapp className="w-6 h-6 group-hover:scale-110 transition-transform" />
+      <span className="w-6 h-6 group-hover:scale-110 transition-transform flex items-center justify-center">
+        <FaWhatsapp size={24} />
+      </span>
     </button>
   );
 };
